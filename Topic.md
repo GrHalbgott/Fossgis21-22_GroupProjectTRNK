@@ -1,18 +1,20 @@
-Does the vegetation of the last X years/on day X suffice to compensate the CO2-emissions of the city of Heidelberg?
+# Does the vegetation of the last X years/on day X suffice to compensate the CO2-emissions of the city of Heidelberg?
 
 Für einen konkreten Zeitpunkt möchten wir die Vegetationsdecken in Heidelberg bestimmen und mit Emissionswerten (CO2) vergleichen, um herausfinden, ob sie zur Kompensation der CO2-Emissionen ausreichen.
 
 Bei Bedarf lässt sich auch ein Zeitfaktor hinzunehmen, der beschreibt, wie sich die Situation über einen Zeitraum X verändert hat.
 Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche der Vegetation und Emission beschreibt und in ein visuelles Verhältnis setzt.
 
-Benötigte Daten:
+
+
+## Benötigte Daten:
 
 1. Rasterdaten von Heidelberg (multispektrale Aufnahmen zur Berechnung eines Vegetationsindex)
 2. Vektordaten von Heidelberg zum Clippen und zur Ausweisung von Flächen, die mit einbezogen oder ausgegrenzt werden sollen (z.B. Heidelberg Zement)
 4. Emissionsdaten (CO2) Heidelberg (am besten als Rasterdaten für die potentielle graphische Darstellung)
 5. Durchschnittswert der vegetativen CO2-Kompensation (Literatur und zusätzlich an Heidelberg berechnet)
 
-Implementationsplan:
+## Implementationsplan:
 
 1. Import der drei Datensätze (Open data)
 2. Clippen der Rasterdaten mit Vektordaten auf Heidelberg
