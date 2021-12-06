@@ -1,6 +1,7 @@
 Does the vegetation of the last X years/on day X suffice to compensate the CO2-emissions of the city of Heidelberg?
 
 Für einen konkreten Zeitpunkt möchten wir die Vegetationsdecken in Heidelberg bestimmen und mit Emissionswerten (CO2) vergleichen, um herausfinden, ob sie zur Kompensation der CO2-Emissionen ausreichen.
+
 Bei Bedarf lässt sich auch ein Zeitfaktor hinzunehmen, der beschreibt, wie sich die Situation über einen Zeitraum X verändert hat.
 Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche der Vegetation und Emission beschreibt und in ein visuelles Verhältnis setzt.
 
