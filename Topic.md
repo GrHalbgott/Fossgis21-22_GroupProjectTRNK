@@ -19,9 +19,9 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 1. Import der drei Datensätze (Open data)
 2. Clippen der Rasterdaten mit Vektordaten auf Heidelberg
 3. Festlegung der einzubeziehenden oder auszugrenzenden Flächen 
-4. Classification: Spektralaufnahmen auswerten -> Klassifikationsmethode für Vegetationsbereiche (Grenzwerte von Vegetationsindizes) -> Image Analysis in QGIS
-5. Zusammenfassen oder Bereiche ausweisen
-6. Durchschnittswerte aus der Literatur nehmen und berechnen und mit Emissionswerten vergleichen, sodass eine Aussage getroffen werden kann
-7. Zusätzlich möglich: multi-Temporal data processing: Einbeziehung des Zeitfaktors
-8. Zusätzlich möglich: multi-criteria analysis: wo kann mehr Vegetation erschaffen werden? 
-9. Das Ganze als Skript oder Model, damit der Ablauf auch für andere Gebiete angewandt werden kann
+4. Classification: Spektralaufnahmen auswerten -> Klassifikationsmethode für Vegetationsbereiche (Grenzwerte von Vegetationsindizes) -> Image Analysis in QGIS => Semi-Automatic Classification Plugin (SCP): https://www.youtube.com/watch?v=HKNS-wsc7lo
+6. Zusammenfassen oder Bereiche ausweisen
+7. Durchschnittswerte aus der Literatur nehmen und berechnen und mit Emissionswerten vergleichen, sodass eine Aussage getroffen werden kann
+8. Zusätzlich möglich: multi-Temporal data processing: Einbeziehung des Zeitfaktors
+9. Zusätzlich möglich: multi-criteria analysis: wo kann mehr Vegetation erschaffen werden? 
+10. Das Ganze als Skript oder Model, damit der Ablauf auch für andere Gebiete angewandt werden kann
