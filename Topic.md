@@ -9,7 +9,7 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 
 ## Benötigte Daten:
 
-1. 'Rasterdaten' von Heidelberg (multispektrale Aufnahmen zur Berechnung eines Vegetationsindex)
+1. Rasterdaten von Heidelberg (multispektrale Aufnahmen zur Berechnung eines Vegetationsindex)
 2. Vektordaten von Heidelberg zum Clippen und zur Ausweisung von Flächen, die mit einbezogen oder ausgegrenzt werden sollen (z.B. Heidelberg Zement)
 4. Emissionsdaten (CO2) Heidelberg (am besten als Rasterdaten für die potentielle graphische Darstellung)
 5. Durchschnittswert der vegetativen CO2-Kompensation (Literatur und zusätzlich an Heidelberg berechnet)
