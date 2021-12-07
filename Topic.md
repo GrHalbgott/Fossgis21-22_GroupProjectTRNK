@@ -35,3 +35,10 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 
 - Durchschnittswert von 24 kg CO2/tree und 500 Trees/hectare. This means that 1 hectare of forest: 500 trees x 24 kg CO2/tree = 12,000 kg of CO2 offsets, i.e. 12 tonnes CO2/hectare. - https://www.encon.be/en/calculation-co2-offsetting-trees
 - Mapping Public Urban Green Spaces based on OpenStreetMap and Sentinel-2 imagery using Belief Functions: Data and Source Code. - https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/UYSAA5
+- Vergleichswerte von Leicester. - https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2011.02021.x
+- Vergleichswerte von Peking. - https://www.frontiersin.org/articles/10.3389/fevo.2016.00053/full
+
+### Zum Durchgucken:
+
+- https://www.nrs.fs.fed.us/units/urban/local-resources/downloads/Tree_Air_Qual.pdf
+- https://www.frontiersin.org/articles/10.3389/fevo.2015.00144/full
