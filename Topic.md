@@ -6,6 +6,7 @@ Bei Bedarf lässt sich auch ein Zeitfaktor hinzunehmen, der beschreibt, wie sich
 Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche der Vegetation und Emission beschreibt und in ein visuelles Verhältnis setzt. Dadurch kann es möglich sein Flächen zu bestimmen, die zur weiteren Bepflanzung von Vegetation sinnvoll wären.
 
 
+
 ## Benötigte Daten:
 
 1. Rasterdaten von Heidelberg (multispektrale Aufnahmen zur Berechnung eines Vegetationsindex)
