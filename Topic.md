@@ -1,4 +1,4 @@
-# Does the vegetation on day X/of the last X years suffice to compensate the CO2-emissions of the city of Heidelberg in that time period?
+# Does the urban vegetation (on day X/of the last X years) suffice to compensate the CO2-emissions of the city of Heidelberg?
 
 Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen in Heidelberg bestimmen und mit Emissionswerten (CO2) vergleichen, um herausfinden, ob sie zur Kompensation der CO2-Emissionen ausreichen.
 
