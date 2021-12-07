@@ -16,8 +16,9 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 
 ### Mögliche Quellen:
 
-- Sentinel-2
+- Sentinel-2 (Emission API nicht sinnvol, da Auflösung zu niedrig und kein CO2 -> Fragestellung auf Deutschland beziehen??)
 - Landsat 5
+- ohsome API für OSM-Vektordaten
 
 ## Implementationsplan:
 
