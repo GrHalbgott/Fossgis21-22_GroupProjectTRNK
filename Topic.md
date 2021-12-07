@@ -14,6 +14,11 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 4. Emissionsdaten (CO2) Heidelberg (am besten als Rasterdaten für die potentielle graphische Darstellung)
 5. Durchschnittswert der vegetativen CO2-Kompensation (Literatur und zusätzlich an Heidelberg berechnet)
 
+### Mögliche Quellen:
+
+. Sentinel-2
+. Landsat 5
+
 ## Implementationsplan:
 
 1. Import der drei Datensätze (Open data)
@@ -25,3 +30,8 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 8. Zusätzlich möglich: multi-Temporal data processing: Einbeziehung des Zeitfaktors
 9. Zusätzlich möglich: multi-criteria analysis: wo kann mehr Vegetation erschaffen werden? 
 10. Das Ganze als Skript oder Model, damit der Ablauf auch für andere Gebiete angewandt werden kann
+
+## Literatur
+
+. Durchschnittswert von 24 kg CO2/tree und 500 Trees/hectare. This means that 1 hectare of forest: 500 trees x 24 kg CO2/tree = 12,000 kg of CO2 offsets, i.e. 12 tonnes CO2/hectare. - https://www.encon.be/en/calculation-co2-offsetting-trees
+. Mapping Public Urban Green Spaces based on OpenStreetMap and Sentinel-2 imagery using Belief Functions: Data and Source Code. - https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/UYSAA5
