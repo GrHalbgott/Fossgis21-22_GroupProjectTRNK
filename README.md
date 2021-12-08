@@ -27,7 +27,6 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 4. Analysis:
    1. Classification: Spektralaufnahmen auswerten -> Klassifikationsmethode für Vegetationsbereiche (Grenzwerte von Vegetationsindizes) -> Image Analysis in QGIS 
    2. Semi-Automatic Classification Plugin (SCP): https://www.youtube.com/watch?v=HKNS-wsc7lo (Schauen ob Automatisieren geht)
-
 5. Zusammenfassen oder Bereiche ausweisen
 6. Durchschnittswerte aus der Literatur nehmen und berechnen und mit Emissionswerten vergleichen, sodass eine Aussage getroffen werden kann
 7. Zusätzlich möglich: multi-Temporal data processing: Einbeziehung des Zeitfaktors
