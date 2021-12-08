@@ -6,7 +6,6 @@ Bei Bedarf lässt sich auch ein Zeitfaktor hinzunehmen, der beschreibt, wie sich
 Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche der Vegetation und Emission beschreibt und in ein visuelles Verhältnis setzt. Dadurch kann es möglich sein Flächen zu bestimmen, die zur weiteren Bepflanzung mit kompensierender Vegetation sinnvoll wären.
 
 
-
 ## Benötigte Daten:
 
 1. Rasterdaten von Heidelberg (multispektrale Aufnahmen zur Berechnung eines Vegetationsindex)
@@ -17,7 +16,7 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 ### Mögliche Quellen:
 
 - Sentinel-2 (Emission API nicht sinnvoll, da Auflösung zu niedrig und kein CO2 -> nur Absolutwert möglich, keine graphisce Darstellung)
-- Landsat 5
+- Landsat 8
 - ohsome API für OSM-Vektordaten
 
 ## Implementationsplan:
