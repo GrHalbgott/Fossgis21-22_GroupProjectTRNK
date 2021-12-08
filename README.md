@@ -45,3 +45,4 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 
 - https://www.nrs.fs.fed.us/units/urban/local-resources/downloads/Tree_Air_Qual.pdf
 - https://www.frontiersin.org/articles/10.3389/fevo.2015.00144/full
+- https://www.fs.usda.gov/ccrc/topics/urban-forests
