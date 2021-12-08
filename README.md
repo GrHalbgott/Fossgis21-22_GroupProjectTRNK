@@ -1,4 +1,4 @@
-# Does the urban vegetation (on day X/of the last X years) suffice to compensate the CO2-emissions of the city of Heidelberg?
+# Does the current urban vegetation in Heidelberg suffice to compensate the GHG emissions of the whole city?
 
 Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen in Heidelberg bestimmen und mit Emissionswerten (CO2) vergleichen, um herausfinden, ob sie zur Kompensation der CO2-Emissionen ausreichen.
 
@@ -10,7 +10,7 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 
 1. Rasterdaten von Heidelberg (multispektrale Aufnahmen zur Berechnung eines Vegetationsindex)
 2. Vektordaten von Heidelberg zum Clippen und zur Ausweisung von Flächen, die mit einbezogen oder ausgegrenzt werden sollen (z.B. Heidelberg Zement)
-4. Emissionsdaten (CO2) Heidelberg (am besten als Rasterdaten für die potentielle graphische Darstellung)
+4. Emissionsdaten (CO2) Heidelberg (am besten als Rasterdaten für die potentielle graphische Darstellung) -- https://openghgmap.net/
 5. Durchschnittswert der vegetativen CO2-Kompensation (Literatur und zusätzlich an Heidelberg berechnet)
 
 ### Mögliche Quellen:
@@ -25,8 +25,8 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 2. Clippen der Rasterdaten mit Vektordaten auf Heidelberg
 3. Festlegung der einzubeziehenden oder auszugrenzenden Flächen
 4. Analysis:
-  1. Classification: Spektralaufnahmen auswerten -> Klassifikationsmethode für Vegetationsbereiche (Grenzwerte von Vegetationsindizes) -> Image Analysis in QGIS 
-  2. Semi-Automatic Classification Plugin (SCP): https://www.youtube.com/watch?v=HKNS-wsc7lo (Schauen ob Automatisieren geht)
+   1. Classification: Spektralaufnahmen auswerten -> Klassifikationsmethode für Vegetationsbereiche (Grenzwerte von Vegetationsindizes) -> Image Analysis in QGIS 
+   2. Semi-Automatic Classification Plugin (SCP): https://www.youtube.com/watch?v=HKNS-wsc7lo (Schauen ob Automatisieren geht)
 
 5. Zusammenfassen oder Bereiche ausweisen
 6. Durchschnittswerte aus der Literatur nehmen und berechnen und mit Emissionswerten vergleichen, sodass eine Aussage getroffen werden kann
@@ -46,10 +46,3 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 - https://www.nrs.fs.fed.us/units/urban/local-resources/downloads/Tree_Air_Qual.pdf
 - https://www.frontiersin.org/articles/10.3389/fevo.2015.00144/full
 - https://www.fs.usda.gov/ccrc/topics/urban-forests
-
-
-
-## Fragen:
-
-- Datenquellen
-- Durchschnittswerte CO2-Kompensation (oder welches Stichwort am sinnvollsten ist)
