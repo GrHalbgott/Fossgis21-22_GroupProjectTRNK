@@ -7,5 +7,12 @@ Hier eine Übersicht, wie man an die Daten kommen kann:
 
 Welche Versionen welcher Programme sollten benutzt werden?
 - SCP ist ein Plugin aus QGIS, welches easy installiert werden kann
-  - SCP benötigt selbst nochmal Python inklusive Numpy, Scipy und Matplotlib
+  - SCP 
 - 
+
+## Installationshinweise/-anleitung
+1. QGIS Version xx 
+  - mit den Plugins blablabla
+2. Plugin: Semi-Automatic Classification
+  - dazu muss Python Version 3.7 oder neuer auf dem System installiert sein (kommt theoretisch mit QGIS)
+  - SCP benötigt neben Python auch die Bibliotheken Numpy, Scipy und Matplotlib, daher Kommandozeile mit Administratorrechten öffnen und eingeben: 'python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose'  
