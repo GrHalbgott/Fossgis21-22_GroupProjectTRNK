@@ -7,5 +7,5 @@ Hier eine Übersicht, wie man an die Daten kommen kann:
 
 Welche Versionen welcher Programme sollten benutzt werden?
 - SCP ist ein Plugin aus QGIS, welches easy installiert werden kann
- - SCP benötigt selbst nochmal Python inklusive Numpy, Scipy und Matplotlib
- - 
+  - SCP benötigt selbst nochmal Python inklusive Numpy, Scipy und Matplotlib
+- 
