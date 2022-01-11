@@ -26,7 +26,7 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 3. Festlegung der einzubeziehenden oder auszugrenzenden Flächen (Heidelberg Zement?)
 4. Analysis: Classification
    1. Spektralaufnahmen auswerten -> NDVI bilden und Schwellenwerte bestimmen -> Image Analysis in QGIS (geht Automatisiert) 
-   2. Semi-Automatic Classification Plugin (SCP): https://www.youtube.com/watch?v=HKNS-wsc7lo (Schauen ob Automatisieren geht)
+   2. Semi-Automatic Classification Plugin (SCP) -> (Schauen ob Automatisieren geht)
 5. Durchschnittswerte aus der Literatur für die Klassen nehmen und gesamte Bindekapazität der urbanen Vegetation gewichtet berechnen
 6. Mit Emissionswerten vergleichen, sodass eine Aussage getroffen werden kann
 9. Das Ganze als Skript oder Model, damit der Ablauf auch für andere Gebiete (in Deutschland) angewandt werden kann
@@ -37,6 +37,11 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 - Mapping Public Urban Green Spaces based on OpenStreetMap and Sentinel-2 imagery using Belief Functions: Data and Source Code. - https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/UYSAA5
 - Vergleichswerte von Leicester. - https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2011.02021.x
 - Vergleichswerte von Peking. - https://www.frontiersin.org/articles/10.3389/fevo.2016.00053/full
+
+## Hilfe zum SCP
+- https://www.youtube.com/watch?v=HKNS-wsc7lo
+- https://www.youtube.com/watch?v=XGxYVoX2jOY
+- https://www.youtube.com/watch?v=fUZgYxgDjsk
 
 ### Zum Durchgucken:
 
