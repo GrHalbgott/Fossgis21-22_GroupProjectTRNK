@@ -14,8 +14,8 @@ Welche Versionen welcher Programme sollten benutzt werden?
 
 1. OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/home/blob/cef5499f150e6735b5d9f61ed512bb196de57ced/docs/course_preparation.md">hier</a> installieren  
 2. QGIS-Plugin: Semi-Automatic Classification
-  - dazu muss Python Version 3.7 oder neuer auf dem System installiert sein (kommt mit OSGeo4W, sollte aber überprüft werden)
-  - SCP benötigt neben Python auch die Bibliotheken Numpy, Scipy und Matplotlib, daher Kommandozeile mit Administratorrechten öffnen folgenden Schritten folgen: 
+  1. dazu muss Python Version 3.7 oder neuer auf dem System installiert sein (kommt mit OSGeo4W, sollte aber überprüft werden)
+  2. SCP benötigt neben Python auch die Bibliotheken Numpy, Scipy und Matplotlib, daher Kommandozeile mit Administratorrechten öffnen folgenden Schritten folgen: 
     1. Navigation zum Installationspfad von Python (meistens C:\Program Files (x86)\Python38-32)
     2. Eingabe von `python -m pip install --upgrade pip` -> dadurch wird der Python-Updater/-Downloader aktualisiert
     3. Eingabe von `python -m pip install --user numpy scipy matplotlib` -> dadurch werden die drei Bibliotheken installiert
