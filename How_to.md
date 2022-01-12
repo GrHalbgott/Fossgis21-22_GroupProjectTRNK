@@ -28,4 +28,5 @@ Welche Versionen welcher Programme sollten benutzt werden?
 3. Sentinel 2-Daten herunterladen und preprozessieren (Bänder 2, 3, 4 & 8) -> https://www.youtube.com/watch?v=XGxYVoX2jOY
 4. Vektordaten herunterladen: GADM (für Deutschland liegen die Daten bereits vor)
 5. A: Build Virtual Raster
-6. A: Clip raster with vector
+6. A: Clip raster with vector (select vector und so)
+7. 
