@@ -22,7 +22,8 @@ Welche Versionen welcher Programme sollten benutzt werden?
 3. Account bei <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub der ESA</a> erstellen für Sentinel 2-Daten
 
 ## Anleitung für SCP
-
+*(A: steht für Automatisieren (in nem Script)*
 1. Plugin installieren (siehe Installationshinweise)
 2. Copernicus Open Access Hub Logindaten in das Pluginfenster eintragen
 3. Sentinel 2-Daten herunterladen und preprozessieren (Bänder 2, 3, 4 & 8) -> https://www.youtube.com/watch?v=XGxYVoX2jOY
+4. A: Build Virtual Raster
