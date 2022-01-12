@@ -20,3 +20,9 @@ Welche Versionen welcher Programme sollten benutzt werden?
       - Eingabe von `python -m pip install --upgrade pip` -> dadurch wird der Python-Updater/-Downloader aktualisiert
       - Eingabe von `python -m pip install --user numpy scipy matplotlib` -> dadurch werden die drei Bibliotheken installiert
 3. Account bei <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub der ESA</a> erstellen für Sentinel 2-Daten
+
+## Anleitung für SCP
+
+1. Plugin installieren (siehe Installationshinweise)
+2. Copernicus Open Access Hub Logindaten in das Pluginfenster eintragen
+3. Sentinel 2-Daten herunterladen und preprozessieren (Bänder 2, 3, 4 & 8) -> https://www.youtube.com/watch?v=XGxYVoX2jOY
