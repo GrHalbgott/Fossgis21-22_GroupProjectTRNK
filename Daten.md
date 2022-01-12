@@ -26,6 +26,6 @@ Welche Versionen welcher Programme sollten benutzt werden?
 1. Plugin installieren (siehe Installationshinweise)
 2. Copernicus Open Access Hub Logindaten in das Pluginfenster eintragen
 3. Sentinel 2-Daten herunterladen und preprozessieren (Bänder 2, 3, 4 & 8) -> https://www.youtube.com/watch?v=XGxYVoX2jOY
-4. A: Vektordaten herunterladen: script
+4. Vektordaten herunterladen: GADM (für Deutschland liegen die Daten bereits vor)
 5. A: Build Virtual Raster
 6. A: Clip raster with vector
