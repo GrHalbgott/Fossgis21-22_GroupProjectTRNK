@@ -39,9 +39,9 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 - Vergleichswerte von Peking. - https://www.frontiersin.org/articles/10.3389/fevo.2016.00053/full
 
 ## Hilfe zum SCP
-- https://www.youtube.com/watch?v=HKNS-wsc7lo
-- https://www.youtube.com/watch?v=XGxYVoX2jOY
-- https://www.youtube.com/watch?v=fUZgYxgDjsk
+- Landsat 8 Image Classification: https://www.youtube.com/watch?v=HKNS-wsc7lo
+- Downloading and preprocessing: https://www.youtube.com/watch?v=XGxYVoX2jOY
+- Supervised classification of Landsat Images: https://www.youtube.com/watch?v=fUZgYxgDjsk
 
 ### Zum Durchgucken:
 
