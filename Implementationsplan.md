@@ -37,6 +37,8 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 - Vergleichswerte von Leicester. - https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2011.02021.x
 - Vergleichswerte von Peking. - https://www.frontiersin.org/articles/10.3389/fevo.2016.00053/full
 
+- SCP: https://joss.theoj.org/papers/10.21105/joss.03172
+
 ## Hilfe zum SCP
 - Landsat 8 Image Classification: https://www.youtube.com/watch?v=HKNS-wsc7lo
 - Downloading and preprocessing: https://www.youtube.com/watch?v=XGxYVoX2jOY
