@@ -11,16 +11,12 @@ Das Projekt soll dazu dienen, GHG-Emissionen einer Region mit deren Vegetationsf
 ## Software requirements
 
 Programs:
+- QGIS Desktop 3.22
 - Python 3.7 or newer
-- grass: GRASS GIS version (7.8.6-2)
-- qgis: QGIS Desktop (3.22)
-
-libs:
-- qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1)
 
 Plugins:
 - Semi-Automatic Classification Plugin 7.10.5 or newer 
-- 
+
 Python-Bibliotheken:
 - Numpy
 - Scipy
@@ -38,6 +34,11 @@ Python-Bibliotheken:
 4. Bei Bedarf: Account bei <a href="https://earthexplorer.usgs.gov/">USGS Earth Explorer</a> erstellen für Landsat(8)-Daten
 
 ## How to run
+
+1. Open QGIS and create a new project
+2. Open the SCP dialog (click on SCP and then any point)
+3. Open the SCP-Dock (right-click on a taskbar)
+4. 
 
 ### SCP
 
