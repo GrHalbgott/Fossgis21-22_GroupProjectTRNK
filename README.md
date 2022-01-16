@@ -6,6 +6,7 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 
 ## General information
 
+Das Projekt soll dazu dienen, GHG-Emissionen einer Region mit deren Vegetationsflächen in Zusammenhang zu setzen und Aussagen über die Klimabilanz treffen zu können. Durch Automatisierung sollen verschiedene Regionen untersucht werden können.
 
 ## Software requirements
 
@@ -19,17 +20,22 @@ libs:
 
 Plugins:
 - Semi-Automatic Classification Plugin 7.10.5 or newer 
+- 
+Python-Bibliotheken:
+- Numpy
+- Scipy
+- Matplotlib
 
 ## How to install
 
 1. OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/home/blob/cef5499f150e6735b5d9f61ed512bb196de57ced/docs/course_preparation.md">hier</a> installieren  
 2. QGIS-Plugin: Semi-Automatic Classification
-    - Dazu muss Python Version 3.7 oder neuer auf dem System installiert sein (kommt mit OSGeo4W, sollte aber überprüft werden)
     - SCP benötigt neben Python auch die Bibliotheken Numpy, Scipy und Matplotlib, daher Kommandozeile mit Administratorrechten öffnen folgenden Schritten folgen: 
       - Navigation zum Installationspfad von Python (meistens C:\Program Files (x86)\Python38-32)
       - Eingabe von `python -m pip install --upgrade pip` -> dadurch wird der Python-Updater/-Downloader aktualisiert
       - Eingabe von `python -m pip install --user numpy scipy matplotlib` -> dadurch werden die drei Bibliotheken installiert
-3. Account bei <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub der ESA</a> erstellen für Sentinel 2-Daten
+3. Account bei <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub der ESA</a> erstellen für Sentinel(2)-Daten
+4. Bei Bedarf: Account bei <a href="https://earthexplorer.usgs.gov/">USGS Earth Explorer</a> erstellen für Landsat(8)-Daten
 
 ## How to run
 
