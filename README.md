@@ -6,7 +6,19 @@ Ebenfalls kann eine graphische Darstellung hinzugefügt werden, die Kernbereiche
 
 ## General information
 
+
 ## Software requirements
+
+Programs:
+- Python 3.7 or newer
+- grass: GRASS GIS version (7.8.6-2)
+- qgis: QGIS Desktop (3.22)
+
+libs:
+- qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1)
+
+Plugins:
+- Semi-Automatic Classification Plugin 7.10.5 or newer 
 
 ## How to install
 
