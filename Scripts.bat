@@ -8,3 +8,8 @@ Ideas for SCP-Automation:
  - Macroclass *vegetation* with the classes *forest*, *agriculture*, *urban vegetation* (trees/gardens), *grasslands* (and ...)
  - Macroclass *non vegetation* with the classes *water*, *infrastructure*, *bare earth* (and *buildings*)
 5. 
+
+
+1. Grobe Koordinaten der Stadt suchen, bei Bedarf BoundingBox erstellen und UTM-Koordinaten lesen, dann in geographische Koordinaten konvertieren
+2. Diese Koordinaten kommen in das `landuse.bat`
+3. 
