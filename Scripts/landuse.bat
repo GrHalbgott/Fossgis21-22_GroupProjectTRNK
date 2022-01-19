@@ -29,6 +29,13 @@ curl -X POST ^
 curl -X POST ^
 --data-urlencode "bboxes=8.573690501677584,49.351977127610745,8.793906378285733,49.45965586843265" ^
 --data-urlencode "time=2018-12-31" ^
---data-urlencode "filter=(landuse=commercial or landuse=construction or landuse=education or landuse=industrial or landuse=residential or landuse=retail or landuse=brownfield or landuse=depot or landuse=garages or landuse=landfill or landuse=military or landuse=port or landuse=quarry or landuse=railway or landuse=recreation_ground) and (geometry:polygon)" ^
+--data-urlencode "filter=(landuse=commercial or landuse=residential or landuse=recreation_ground) and (geometry:polygon)" ^
+-o 2018_SemiVegetation.geojson ^
+"https://api.ohsome.org/v1/elements/geometry"
+
+curl -X POST ^
+--data-urlencode "bboxes=8.573690501677584,49.351977127610745,8.793906378285733,49.45965586843265" ^
+--data-urlencode "time=2018-12-31" ^
+--data-urlencode "filter=(landuse=construction or landuse=education or landuse=industrial or landuse=retail or landuse=brownfield or landuse=depot or landuse=garages or landuse=landfill or landuse=military or landuse=port or landuse=quarry or landuse=railway) and (geometry:polygon)" ^
 -o 2018_NonVegetation.geojson ^
 "https://api.ohsome.org/v1/elements/geometry"
