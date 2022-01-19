@@ -7,12 +7,12 @@ Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen in Heidelber
 ### Benötigte Daten:
 
 1. Rasterdaten von Heidelberg (multispektrale Aufnahmen zur Berechnung eines Vegetationsindex)
-  - Sentinel-2-Daten bieten sich am besten an, da Auflösung hoch genug und multispektral
+  - Sentinel-2-Daten bieten sich am besten an, da Auflösung hoch genug und multispektral (+ frei verfügbar)
   - ansonsten wären Landsat-8-Daten für größere Regionen ebenfalls möglich
 2. Vektordaten von Heidelberg zum Clippen und zur Ausweisung von Flächen, die mit einbezogen oder ausgegrenzt werden sollen (z.B. Heidelberg Zement)
    - GADM-Data by country: https://gadm.org/download_country.html
-3. Emissionsdaten (CO2) Heidelberg (am besten als Rasterdaten für die potentielle graphische Darstellung)
-  - Emission-API
+3. Emissionsdaten (CO2) Heidelberg
+  - https://openghgmap.net/data/
   - https://openghgmap.net/ (ein Durchschnittswert für die ganze Stadt)
 4. Durchschnittswert der vegetativen CO2-Kompensation (Literatur und zusätzlich an Heidelberg für jede Klasse berechnet)
 
