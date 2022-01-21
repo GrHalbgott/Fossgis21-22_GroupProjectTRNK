@@ -11,8 +11,7 @@ Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen in Heidelber
   - ansonsten wären Landsat-8-Daten für größere Regionen ebenfalls möglich
 2. Vektordaten von Heidelberg zum Clippen und zur Ausweisung von Flächen, die mit einbezogen oder ausgegrenzt werden sollen (z.B. Heidelberg Zement)
    - GADM-Data by country: 
-3. Emissionsdaten (CO2) Heidelberg
-  - https://openghgmap.net/ (ein Durchschnittswert für die ganze Stadt)
+
 4. Durchschnittswert der vegetativen CO2-Kompensation (Literatur und zusätzlich an Heidelberg für jede Makroklasse berechnet)
 
 ## Software requirements
@@ -26,10 +25,12 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 
 ## Needed data
 
-1. Multispectral raster data of Heidelberg: Sentinel 2 data, because it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR (https://scihub.copernicus.eu/dhus/#/home)
-2. Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html)
+- Multispectral raster data of Heidelberg: Sentinel 2 data, it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR (https://scihub.copernicus.eu/dhus/#/home)
+- Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, structured in differnet administrative levels and comes with interesting additional data
+- Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, gives you one total emission value and shows the different sources of emission
+- Compensation power of vegetation: values from literature 
 
-## How to aquire Sentinel 2 data
+### How to aquire Sentinel 2 data
 
 1. Navigate to <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub by ESA registration form</a> and set up an account
     - If you want to use Landsat 8 data, set up an account at <a href="https://earthexplorer.usgs.gov/">USGS Earth Explorer</a> (not recommended for smaller regions)
@@ -45,10 +46,18 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 10. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the three bands "... B02, B03, B04 & B08" (all .jp2)
 11. When downloaded, put the four files in a folder "data/Sentinel_2" and move it where the scripts of this project are located
 
-## How to aquire vector data
+### How to aquire vector data
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select a country and download the Geopackage
 2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the scripts of this project are located 
+
+### How to aquired emission data
+
+1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
+2. Specify the search area by zooming in with the mouse wheel
+3. Click on the three stripes to open the menue (upper right corner)
+4. Click on Counties (lvl=6)
+5. Hover over the region you want to see data from and write the red value it down
 
 ## How to run
 
