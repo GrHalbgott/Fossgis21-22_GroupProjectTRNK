@@ -10,7 +10,7 @@ Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen in Heidelber
   - Sentinel-2-Daten bieten sich am besten an, da Auflösung hoch genug und multispektral
   - ansonsten wären Landsat-8-Daten für größere Regionen ebenfalls möglich
 2. Vektordaten von Heidelberg zum Clippen und zur Ausweisung von Flächen, die mit einbezogen oder ausgegrenzt werden sollen (z.B. Heidelberg Zement)
-   - GADM-Data by country: https://gadm.org/download_country.html
+   - GADM-Data by country: 
 3. Emissionsdaten (CO2) Heidelberg
   - https://openghgmap.net/ (ein Durchschnittswert für die ganze Stadt)
 4. Durchschnittswert der vegetativen CO2-Kompensation (Literatur und zusätzlich an Heidelberg für jede Makroklasse berechnet)
@@ -24,10 +24,26 @@ Programs:
 
 OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/home/blob/cef5499f150e6735b5d9f61ed512bb196de57ced/docs/course_preparation.md">hier</a> installieren 
 
-## How to aquire data
+## Needed data
 
-1. Account bei <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub der ESA</a> erstellen für Sentinel(2)-Daten
-2. Bei Bedarf: Account bei <a href="https://earthexplorer.usgs.gov/">USGS Earth Explorer</a> erstellen für Landsat(8)-Daten
+1. Multispectral raster data of Heidelberg: Sentinel 2 data, because it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR (https://scihub.copernicus.eu/dhus/#/home)
+2. Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html)
+
+## How to aquire Sentinel 2 data
+
+1. Navigate to <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub by ESA</a> and set up an account
+    - If you want to use Landsat 8 data, set up an account at <a href="https://earthexplorer.usgs.gov/">USGS Earth Explorer</a> (not recommended for smaller regions)
+2. Log in
+3. Specify search area in the map with right-click (move map with left-click and zoom in with mouse wheel)
+4. Click on the three stripes left in the search box to open the advanced search (upper left corner of screen)
+5. Select Sentinel 2 and put following statement in the box for the cloud cover: [0 TO 10]
+6. Click on the search button (upper right of search box) and wait until results are displayed
+7. Search for an image with full extent (no black parts) and minimal cloud cover
+8. 
+
+## How to aquire vector data
+
+3 Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a> and download the Geopackage
 
 ## How to run
 
