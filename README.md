@@ -4,16 +4,6 @@
 
 Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen in Heidelberg bestimmen und mit GHG-Emissionswerten vergleichen, um herausfinden, ob sie zur Kompensation der GHG-Emissionen ausreichen. Das Projekt soll dazu dienen, GHG-Emissionen einer Region mit deren Vegetationsflächen in Zusammenhang zu setzen und Aussagen über die Klimabilanz treffen zu können. Durch Automatisierung sollen verschiedene Regionen untersucht werden können.
 
-### Benötigte Daten:
-
-1. Rasterdaten von Heidelberg (multispektrale Aufnahmen zur Berechnung eines Vegetationsindex)
-  - Sentinel-2-Daten bieten sich am besten an, da Auflösung hoch genug und multispektral
-  - ansonsten wären Landsat-8-Daten für größere Regionen ebenfalls möglich
-2. Vektordaten von Heidelberg zum Clippen und zur Ausweisung von Flächen, die mit einbezogen oder ausgegrenzt werden sollen (z.B. Heidelberg Zement)
-   - GADM-Data by country: 
-
-4. Durchschnittswert der vegetativen CO2-Kompensation (Literatur und zusätzlich an Heidelberg für jede Makroklasse berechnet)
-
 ## Software requirements
 
 Programs:
@@ -25,10 +15,10 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 
 ## Needed data
 
-- Multispectral raster data of Heidelberg: Sentinel 2 data, it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR (https://scihub.copernicus.eu/dhus/#/home)
-- Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, structured in differnet administrative levels and comes with interesting additional data
+- Multispectral raster data of Heidelberg: Sentinel 2 data (https://scihub.copernicus.eu/dhus/#/home), it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR 
+- Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, is structured in different administrative levels and comes with interesting additional data
 - Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, gives you one total emission value and shows the different sources of emission
-- Compensation power of vegetation: values from literature 
+- Compensation ability of vegetation: values from literature 
 
 ### How to aquire Sentinel 2 data
 
@@ -57,11 +47,13 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 2. Specify the search area by zooming in with the mouse wheel
 3. Click on the three stripes to open the menue (upper right corner)
 4. Click on Counties (lvl=6)
-5. Hover over the region you want to see data from and write the red value it down
+5. Hover over the region you want to see data from and write down the red value
 
 ## How to run
 
 1. 
+
+---
 
 ## Alternative Method: SCP
 
@@ -82,14 +74,12 @@ Python-Bibliotheken:
       - Eingabe von `python -m pip install --upgrade pip` -> dadurch wird der Python-Updater/-Downloader aktualisiert
       - Eingabe von `python -m pip install --user numpy scipy matplotlib` -> dadurch werden die drei Bibliotheken installiert
 
-
 ### SCP
 
-*(A: steht für Automatisieren (in nem Script))*
 1. Plugin installieren (siehe Installationshinweise)
 2. Copernicus Open Access Hub Logindaten in das Pluginfenster eintragen
 3. Sentinel 2-Daten herunterladen und preprozessieren (Bänder 2, 3, 4 & 8) -> https://www.youtube.com/watch?v=XGxYVoX2jOY
 4. Vektordaten herunterladen: GADM (für Deutschland liegen die Daten bereits vor)
-5. A: Build Virtual Raster
-6. A: Clip raster with vector (select vector und so)
+5. Build Virtual Raster
+6. Clip raster with vector (select vector und so)
 7. 
