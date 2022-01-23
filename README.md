@@ -1,4 +1,6 @@
-# Does the current urban vegetation in Heidelberg suffice to compensate the GHG emissions of the whole city?
+# Does the current vegetation in Heidelberg suffice to compensate the GHG emissions of the whole city?
+
+<a href="https://github.com/fossgis2122/home/blob/e5aa74674c3a5d00ed566d79ccd8507bb6f41c33/docs/project_deliverables.md">**Deliverables**</a>
 
 ## General information
 
