@@ -19,7 +19,7 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 
 - Multispectral raster data of Heidelberg: Sentinel 2 data (https://scihub.copernicus.eu/dhus/#/home), it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR 
 - Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, is structured in different administrative levels and comes with interesting additional data
-- Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, gives you one total emission value and shows the different sources of emission
+- Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
 - Compensation ability of vegetation: values from literature 
 
 ### How to aquire Sentinel 2 data
@@ -52,7 +52,10 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 
 ## How to run
 
-1. 
+**Attention: you are required to put all files in the exact locations as described in this manual!**
+
+1. Rename the four raster data files into the scheme S2_B02.jp2, ..., S2_B08.jp2.
+2. Run "preprocess_ndvi.bat" and keep an eye on the locations and names of the folders and files (take a look at <a href="">data_structure.png</a>)
 
 ---
 
