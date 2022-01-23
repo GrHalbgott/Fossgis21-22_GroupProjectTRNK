@@ -23,7 +23,6 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 ### How to aquire Sentinel 2 data
 
 1. Navigate to <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub by ESA registration form</a> and set up an account
-    - If you want to use Landsat 8 data, set up an account at <a href="https://earthexplorer.usgs.gov/">USGS Earth Explorer</a> (not recommended for smaller regions)
 2. Log in on <a href="https://scihub.copernicus.eu/dhus/#/home">Copernicus Open Access Hub</a>
     - Without logging in you cannot download the required data
 3. Specify search area in the map with right-click (move map with left-click and zoom in with mouse wheel)
