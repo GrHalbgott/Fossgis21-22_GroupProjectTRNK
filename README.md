@@ -43,18 +43,26 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 
 </details>
 
-### How to aquire vector data
+<details>
+   <summary><b>How to aquire vector data</b></summary>
+<br>
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select a country and download the Geopackage
 2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the scripts of this project are located 
 
-### How to aquire emission data
+</details>
+
+<details>
+   <summary><b>How to aquire emission data</b></summary>
+<br>
 
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel
 3. Click on the three stripes to open the menue (upper right corner)
 4. Click on Counties (lvl=6)
 5. Hover over the region you want to see data from and write down the red value
+
+</details>
 
 ## How to run
 
