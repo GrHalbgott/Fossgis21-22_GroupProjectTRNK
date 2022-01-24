@@ -10,6 +10,7 @@ Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen in Heidelber
 
 Programs:
 - QGIS Desktop 3.22
+- **OSGeo4W Shell** 
 
 ## How to install
 
