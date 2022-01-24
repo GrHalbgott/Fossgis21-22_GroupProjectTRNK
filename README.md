@@ -24,7 +24,7 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 - Compensation ability of vegetation: values from literature 
 
 <details>
-    <summary><h2>How to aquire Sentinel 2 data</h2></summary>
+   <h2><summary>How to aquire Sentinel 2 data</summary></h2>
 <br>
     
 1. Navigate to <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub by ESA registration form</a> and set up an account
