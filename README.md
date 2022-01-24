@@ -43,7 +43,7 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select a country and download the Geopackage
 2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the scripts of this project are located 
 
-### How to aquired emission data
+### How to aquire emission data
 
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel
@@ -53,7 +53,7 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 
 ## How to run
 
-**Attention: you are required to put all files in the exact locations as described in this manual!**
+**Attention: you are required to put all files in the exact locations and rename them exactly as described in this manual!**
 
 1. Rename the four raster data files into the scheme "S2_B02.jp2", ..., "S2_B08.jp2".
 2. Run "preprocess_ndvi.bat" and keep an eye on the locations and names of the folders and files (take a look at <a href="data_structure.png">data_structure.png</a>)
