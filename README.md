@@ -58,34 +58,3 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 
 1. Rename the four raster data files into the scheme "B02.jp2", ..., "B08.jp2".
 2. Run "preprocess_ndvi.bat" and keep an eye on the locations and names of the folders and files (take a look at <a href="data_structure.png">data_structure.png</a>)
-
----
-
-## Alternative Method: SCP
-
-### Requirements
-
-Semi-Automatic Classification Plugin (7.10.5 or newer)
-Python 3.7 or newer
-Python-Bibliotheken:
-- Numpy
-- Scipy
-- Matplotlib
-
-### How to
-
-2. QGIS-Plugin: Semi-Automatic Classification
-    - SCP benötigt neben Python auch die Bibliotheken Numpy, Scipy und Matplotlib, daher Kommandozeile mit Administratorrechten öffnen folgenden Schritten folgen: 
-      - Navigation zum Installationspfad von Python (meistens C:\Program Files (x86)\Python38-32)
-      - Eingabe von `python -m pip install --upgrade pip` -> dadurch wird der Python-Updater/-Downloader aktualisiert
-      - Eingabe von `python -m pip install --user numpy scipy matplotlib` -> dadurch werden die drei Bibliotheken installiert
-
-### SCP
-
-1. Plugin installieren (siehe Installationshinweise)
-2. Copernicus Open Access Hub Logindaten in das Pluginfenster eintragen
-3. Sentinel 2-Daten herunterladen und preprozessieren (Bänder 2, 3, 4 & 8) -> https://www.youtube.com/watch?v=XGxYVoX2jOY
-4. Vektordaten herunterladen: GADM (für Deutschland liegen die Daten bereits vor)
-5. Build Virtual Raster
-6. Clip raster with vector (select vector und so)
-7. 
