@@ -30,12 +30,13 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 3. Specify search area in the map with right-click (move map with left-click and zoom in with mouse wheel)
 4. Click on the three stripes left in the search box to open the advanced search (upper left corner of screen)
 5. Select Sentinel 2 and put following statement in the box for the cloud cover: [0 TO 10]
-6. Click on the search button (upper right of search box) and wait until results are displayed
-7. Search for an image with full extent (no black parts) and minimal cloud cover
-8. Hover over the entry and click on the eye icon ("View product details")
-9. Check in the quick look, if the data seems suitable
-10. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the three bands "... B02, B03, B04 & B08" (all .jp2)
-11. When downloaded, put the four files in a folder "data/Sentinel_2" and move it where the scripts of this project are located
+6. If you want to search for data in a specific time period, put the required dates in "sensing period"
+7. Click on the search button (upper right of search box) and wait until results are displayed
+8. Search for an image with full extent (no black parts) and minimal cloud cover
+9. Hover over the entry and click on the eye icon ("View product details")
+10. Check in the quick look, if the data seems suitable
+11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the three bands "... B02, B03, B04 & B08" (all .jp2)
+12. When downloaded, put the four files in a folder "data/Sentinel_2" and move it where the scripts of this project are located
 
 ### How to aquire vector data
 
