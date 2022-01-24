@@ -23,8 +23,10 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 - Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
 - Compensation ability of vegetation: values from literature 
 
-### How to aquire Sentinel 2 data
-
+<details>
+<summary>How to aquire Sentinel 2 data</summary>
+<br>
+    
 1. Navigate to <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub by ESA registration form</a> and set up an account
 2. Log in on <a href="https://scihub.copernicus.eu/dhus/#/home">Copernicus Open Access Hub</a>
     - Without logging in you cannot download the required data
@@ -38,6 +40,8 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 10. Check in the quick look window if the data seems suitable
 11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the three bands "...B02..., ...B03..., ...B04... & ...B08..." (all .jp2)
 12. When downloaded, put the four files in a folder "data/Sentinel_2" and move it where the scripts of this project are located
+
+</details>
 
 ### How to aquire vector data
 
