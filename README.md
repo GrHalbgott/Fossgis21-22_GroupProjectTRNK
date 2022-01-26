@@ -25,6 +25,7 @@ Both programs are included in the OSGeo4W-Package
     - qgis: QGIS Desktop (3.22)
     - saga: SAGA (7.8.2-12)
     - Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
+5. Complete the installation
 
 ## Needed data
 
@@ -47,8 +48,8 @@ Both programs are included in the OSGeo4W-Package
 7. Click on the search button (upper right of search box) and wait until results are displayed
 8. Search for an image with full extent (no black parts) and minimal cloud cover
 9. Hover over the entry and click on the eye icon ("View product details")
+    - If the images you are looking for are offline, you can add them to your cart. After a while (couple of minutes to maybe hours) they will be available to download
 10. Check in the quick look window if the data seems suitable
-  - If the images you are looking for are offline, you can add them to your cart. After a while (couple of minutes to maybe hours) they will be available to download
 11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the two files "...B04..." & "...B08..." (both .jp2)
 12. When downloaded, put the two files in a folder "data" and move the folder to the location of the scripts of this project (take a look at <a href="data_structure.png">data_structure.png</a> for reference)
    
@@ -98,7 +99,7 @@ Both programs are included in the OSGeo4W-Package
   - the vector data input "roi" is the output from the script "roi_extractor.bat", so it should be the shapefile in the "./data" folder named as your input for your roi
 4. Uncheck both check boxes
 5. Run the model
-
+6. Run the script "postprocessing.bat"
 
 ---
 ## Literature:
