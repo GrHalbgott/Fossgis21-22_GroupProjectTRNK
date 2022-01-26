@@ -54,7 +54,7 @@ Note: Additional packages will be selected automatically which are needed to run
 11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the two files "...B04..." & "...B08..." (both .jp2)
 12. When downloaded, put the four files in a folder "data/sentinel_2" and move the folder "data" where the scripts of this project are located (take a look at <a href="data_structure.png">data_structure.png</a>)
    
-**Data is offline?**
+#### Data is offline?
 If the images you are looking for are offline, you can add them to your cart. After a while (couple of minutes to maybe hours) they will be available to download as described above.
 
 </details>
