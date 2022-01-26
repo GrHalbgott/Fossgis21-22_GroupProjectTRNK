@@ -4,7 +4,9 @@
 
 ## General information
 
-Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen in Heidelberg bestimmen und mit GHG-Emissionswerten vergleichen, um herausfinden, ob sie zur Kompensation der GHG-Emissionen ausreichen. Das Projekt soll dazu dienen, GHG-Emissionen einer Region mit deren Vegetationsflächen in Zusammenhang zu setzen und Aussagen über die Klimabilanz treffen zu können. Durch Automatisierung sollen verschiedene Regionen untersucht werden können.
+For a specific point in time we would like to determine the vegetation areas in a region of interest (roi) and compare them with CO2 emission values to find out whether they are sufficient enough to compensate those emissions. The project should serve to correlate CO2 emissions of a roi with its vegetation areas and to be able to make statements about the climate balance. Through automation, different regions should be able to be examined easily.
+
+Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen einer Region of Interest (ROI) bestimmen und mit CO2-Emissionswerten vergleichen, um herausfinden, ob sie zur Kompensation dieser Emissionen ausreichen. Das Projekt soll dazu dienen, CO2-Emissionen einer ROI mit deren Vegetationsflächen in Zusammenhang zu setzen und Aussagen über die Klimabilanz der ROI treffen zu können. Durch Automatisierung sollen verschiedene Regionen einfach untersucht werden können.
 
 ## Software requirements
 
@@ -19,14 +21,10 @@ Both programs are included in the OSGeo4W-Package
 1. Download the OSGeo4W Installer from <a href="http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe">here</a> (official link to the current network-installer)
 2. Run the installer
 3. Select Advanced Install, click through the steps and keep the default values
-4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New":
-
-Section: Desktop
-
-qgis: QGIS Desktop (3.22)
-saga: SAGA (7.8.2-12)
-
-Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
+4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New". Under the section Desktop choose:
+    - qgis: QGIS Desktop (3.22)
+    - saga: SAGA (7.8.2-12)
+    Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
 
 ## Needed data
 
@@ -41,8 +39,7 @@ Note: Additional packages will be selected automatically which are needed to run
 <br>
     
 1. Navigate to <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub by ESA registration form</a> and set up an account
-2. Log in on <a href="https://scihub.copernicus.eu/dhus/#/home">Copernicus Open Access Hub</a>
-    - Without logging in you cannot download the required data
+2. Log in on <a href="https://scihub.copernicus.eu/dhus/#/home">Copernicus Open Access Hub</a>. Without logging in you cannot download the required data
 3. Specify search area in the map with right-click (move map with left-click and zoom in with mouse wheel)
 4. Click on the three stripes left in the search box to open the advanced search (upper left corner of screen)
 5. Select Sentinel 2 and put following statement in the box for the cloud cover: [0 TO 10]
@@ -51,12 +48,10 @@ Note: Additional packages will be selected automatically which are needed to run
 8. Search for an image with full extent (no black parts) and minimal cloud cover
 9. Hover over the entry and click on the eye icon ("View product details")
 10. Check in the quick look window if the data seems suitable
+  - If the images you are looking for are offline, you can add them to your cart. After a while (couple of minutes to maybe hours) they will be available to download
 11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the two files "...B04..." & "...B08..." (both .jp2)
-12. When downloaded, put the four files in a folder "data/sentinel_2" and move the folder "data" where the scripts of this project are located (take a look at <a href="data_structure.png">data_structure.png</a>)
+12. When downloaded, put the two files in a folder "data" and move the folder to the location of the scripts of this project (take a look at <a href="data_structure.png">data_structure.png</a> for reference)
    
-#### Data is offline?
-If the images you are looking for are offline, you can add them to your cart. After a while (couple of minutes to maybe hours) they will be available to download as described above.
-
 </details>
 
 <details>
@@ -64,11 +59,10 @@ If the images you are looking for are offline, you can add them to your cart. Af
 <br>
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Geopackage
-2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the other data of this project is located (take a look at <a href="data_structure.png">data_structure.png</a>)
+2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the other data of this project is located (<a href="data_structure.png">data_structure.png</a>)
 3. Execute the script "roi_extractor.bat"
 4. You immediately are required to enter the roi. Any name of a city or town should work, for additional information you should look into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Bensheim) - it has to be in the extent of the Sentinel-2 raster images!
-5. The outlines of the roi are now put as a shapefile in the data folder
-6. You can close the shell window now
+5. The outlines of the roi are now saved as a shapefile in the "./data" folder
 
 </details>
 
@@ -81,6 +75,7 @@ If the images you are looking for are offline, you can add them to your cart. Af
 3. Click on the three stripes to open the menue (upper right corner)
 4. Click on Counties (lvl=6)
 5. Hover over the region you want to see data from and write down the red value
+6. Alternatively you can click on "About" on the right side and download the "allcountries.geojson.zip", but this is not required
 
 </details>
 
@@ -88,20 +83,21 @@ If the images you are looking for are offline, you can add them to your cart. Af
 
 **Attention: you are required to put all files in the exact locations and rename them exactly as described in this manual!**
 
-Part 1: Preprocessing
-1. Rename the file with ...B04... in its name into "b04_Red.jp2" and the other one into "b08_NIR.jp2"
-2. Run "preprocess.bat" and 
+(Part 1: Preprocessing
+1. Rename the file with "B04" in its name into "B04.jp2" and the other one into "B08.jp2"
 3. Open the OSGeo4W Shell and navigate to the folder where the scripts are located
 4. Enter "preprocess.bat" and execute the command
-5. Keep an eye on the locations and names of the folders and files (take a look at <a href="data_structure.png">data_structure.png</a>)
-6. You can close the shell window
+5. Keep an eye on the locations and names of the folders and files (<a href="data_structure.png">data_structure.png</a>)
+6. You can close the shell window)
 
-Part 2: Analysis
 1. Open QGIS
-2. Navigate to the folder with the scripts and double-click on the model "fossgis22"
+2. Navigate to the folder "Fossgis" and double-click on the model "QGIS_Fossgis" to run it
 3. Put in all required data (should be self explanatory) and specify the output folder as the folder where the scripts are located
-  - the raster bands are the two from the ./data/sentinel_2 folder
-5. 
+  - we recommend using EPSG:25832 as CRS
+  - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names
+  - the vector data input "roi" is the output from the script "roi_extractor.bat", so it should be the shapefile in the "./data" folder named as your input for your roi
+4. Uncheck both check boxes
+5. Run the model
 
 
 ---
