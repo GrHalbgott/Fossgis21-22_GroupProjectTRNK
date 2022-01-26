@@ -19,8 +19,14 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 1. Download the OSGeo4W Installer from <a href="http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe">here</a> (official link to the network-installer)
 2. Run the installer.
 3. Select Advanced Install, click through the steps and keep the default values.
-4. Pick one or more packages to install, and Next.
-5. The selected packages and their required sub packages will be downloaded and installed automatically.
+4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New"
+
+Section: Desktop
+
+qgis: QGIS Desktop (3.22)
+saga: SAGA (7.8.2-12)
+
+Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
 
 ## Needed data
 
