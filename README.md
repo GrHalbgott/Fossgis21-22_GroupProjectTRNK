@@ -39,19 +39,20 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 8. Search for an image with full extent (no black parts) and minimal cloud cover
 9. Hover over the entry and click on the eye icon ("View product details")
 10. Check in the quick look window if the data seems suitable
-11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the three bands "...B02..., ...B03..., ...B04... & ...B08..." (all .jp2)
-12. When downloaded, put the four files in a folder "data/Sentinel_2" and move it (folder data) where the scripts of this project are located
+11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the two files "...B04..." & "...B08..." (both .jp2)
+12. When downloaded, put the four files in a folder "data/sentinel_2" and move the folder "data" where the scripts of this project are located (take a look at <a href="data_structure.png">data_structure.png</a>)
 
 </details>
 
 <details>
-   <summary><b>How to aquire vector data of Heidelberg</b></summary>
+   <summary><b>How to aquire vector data of the region of interest (RoI)</b></summary>
 <br>
 
-1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select a country and download the Geopackage
-2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the scripts of this project are located
-3. Rename the file into "gadm.gpkg"
-4. Open the script "region_extractor.bat" and change the first line `set roi=''` to set the region of interest. Any name of a city should work, for additional information you should look into the gadm36_DEU.gpkg and search under Name_3 for your roi
+1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Geopackage
+2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the scripts of this project are located (take a look at <a href="data_structure.png">data_structure.png</a>)
+3. Execute the script "roi_extractor.bat"
+4. You immediately are required to enter the roi. Any name of a city should work, for additional information you should look into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Mannheim or Speyer) - it has to be in the extent of the Sentinel-2 raster images!
+5. You can close the shell window
 
 </details>
 
@@ -72,5 +73,22 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 **Attention: you are required to put all files in the exact locations and rename them exactly as described in this manual!**
 
 Part 1: Preprocessing
-1. Rename the four raster data files into the scheme "B02.jp2", ..., "B08.jp2".
-2. Run "preprocess_ndvi.bat" and keep an eye on the locations and names of the folders and files (take a look at <a href="data_structure.png">data_structure.png</a>)
+1. Rename the file with ...B04... in its name into "b04_Red.jp2" and the other one into "b08_NIR.jp2"
+2. Run "preprocess.bat" and 
+3. Open the OSGeo4W Shell and navigate to the folder where the scripts are located
+4. Enter "preprocess.bat" and execute the command
+5. Keep an eye on the locations and names of the folders and files (take a look at <a href="data_structure.png">data_structure.png</a>)
+6. You can close the shell window
+
+Part 2: Analysis
+1. Open QGIS
+2. Navigate to the folder with the scripts and double-click on the model "fossgis22"
+3. Put in all required data (should be self explanatory) and specify the output folder as the folder where the scripts are located
+  - the raster bands are the two from the ./data/sentinel_2 folder
+5. 
+
+
+---
+## Literature:
+
+NDVI and classification of NDVI-values: https://www.researchgate.net/publication/275030305_Evaluating_Multispectral_Images_and_Vegetation_Indices_for_Precision_Farming_Applications_from_UAV_Images
