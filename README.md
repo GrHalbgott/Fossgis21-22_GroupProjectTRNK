@@ -20,6 +20,7 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 
 - Multispectral raster data of Heidelberg: Sentinel 2 data (https://scihub.copernicus.eu/dhus/#/home), it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR 
 - Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, is structured in different administrative levels and comes with interesting additional data
+- Landuse data (vector) of Heidelberg: ohsome API, because it's fast, it's free and it's versatile
 - Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
 - Compensation ability of vegetation: values from literature 
 
@@ -39,16 +40,18 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 9. Hover over the entry and click on the eye icon ("View product details")
 10. Check in the quick look window if the data seems suitable
 11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the three bands "...B02..., ...B03..., ...B04... & ...B08..." (all .jp2)
-12. When downloaded, put the four files in a folder "data/Sentinel_2" and move it where the scripts of this project are located
+12. When downloaded, put the four files in a folder "data/Sentinel_2" and move it (folder data) where the scripts of this project are located
 
 </details>
 
 <details>
-   <summary><b>How to aquire vector data</b></summary>
+   <summary><b>How to aquire vector data of Heidelberg</b></summary>
 <br>
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select a country and download the Geopackage
-2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the scripts of this project are located 
+2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the scripts of this project are located
+3. Rename the file into "gadm.gpkg"
+4. Open the script "region_extractor.bat" and change the first line `set roi=''` to set the region of interest. Any name of a city should work, for additional information you should look into the gadm36_DEU.gpkg and search under Name_3 for your roi
 
 </details>
 
@@ -68,5 +71,6 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 
 **Attention: you are required to put all files in the exact locations and rename them exactly as described in this manual!**
 
+Part 1: Preprocessing
 1. Rename the four raster data files into the scheme "B02.jp2", ..., "B08.jp2".
 2. Run "preprocess_ndvi.bat" and keep an eye on the locations and names of the folders and files (take a look at <a href="data_structure.png">data_structure.png</a>)
