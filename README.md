@@ -45,14 +45,15 @@ OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/hom
 </details>
 
 <details>
-   <summary><b>How to aquire vector data of the region of interest (RoI)</b></summary>
+   <summary><b>How to aquire vector data of the region of interest (roi)</b></summary>
 <br>
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Geopackage
-2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the scripts of this project are located (take a look at <a href="data_structure.png">data_structure.png</a>)
+2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the other data of this project is located (take a look at <a href="data_structure.png">data_structure.png</a>)
 3. Execute the script "roi_extractor.bat"
-4. You immediately are required to enter the roi. Any name of a city should work, for additional information you should look into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Mannheim or Speyer) - it has to be in the extent of the Sentinel-2 raster images!
-5. You can close the shell window
+4. You immediately are required to enter the roi. Any name of a city or town should work, for additional information you should look into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Bensheim) - it has to be in the extent of the Sentinel-2 raster images!
+5. The outlines of the roi are now put as a shapefile in the data folder
+6. You can close the shell window now
 
 </details>
 
