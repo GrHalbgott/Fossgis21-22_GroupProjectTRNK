@@ -9,12 +9,18 @@ Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen in Heidelber
 ## Software requirements
 
 Programs:
-- QGIS Desktop 3.22
-- **OSGeo4W Shell**
+- QGIS Desktop 3.22 or newer
+- SAGA GIS 7.8.2 or newer
 
 ## How to install
 
 OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/home/blob/cef5499f150e6735b5d9f61ed512bb196de57ced/docs/course_preparation.md">hier</a> installieren 
+
+1. Download the OSGeo4W Installer from <a href="http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe">here</a> (official link to the network-installer)
+2. Run the installer.
+3. Select Advanced Install, click through the steps and keep the default values.
+4. Pick one or more packages to install, and Next.
+5. The selected packages and their required sub packages will be downloaded and installed automatically.
 
 ## Needed data
 
