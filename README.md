@@ -12,14 +12,14 @@ Programs:
 - QGIS Desktop 3.22 or newer
 - SAGA GIS 7.8.2 or newer
 
+Both programs are included in the OSGeo4W-Package
+
 ## How to install
 
-OSGeo4W entsprechend den Anweisungen <a href="https://github.com/fossgis2122/home/blob/cef5499f150e6735b5d9f61ed512bb196de57ced/docs/course_preparation.md">hier</a> installieren 
-
-1. Download the OSGeo4W Installer from <a href="http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe">here</a> (official link to the network-installer)
-2. Run the installer.
-3. Select Advanced Install, click through the steps and keep the default values.
-4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New"
+1. Download the OSGeo4W Installer from <a href="http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe">here</a> (official link to the current network-installer)
+2. Run the installer
+3. Select Advanced Install, click through the steps and keep the default values
+4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New":
 
 Section: Desktop
 
@@ -32,7 +32,7 @@ Note: Additional packages will be selected automatically which are needed to run
 
 - Multispectral raster data of Heidelberg: Sentinel 2 data (https://scihub.copernicus.eu/dhus/#/home), it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR 
 - Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, is structured in different administrative levels and comes with interesting additional data
-- Landuse data (vector) of Heidelberg: ohsome API, because it's fast, it's free and it's versatile
+(- Landuse data (vector) of Heidelberg: ohsome API, because it's fast, it's free and it's versatile)
 - Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
 - Compensation ability of vegetation: values from literature 
 
