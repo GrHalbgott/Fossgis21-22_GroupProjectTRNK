@@ -91,6 +91,7 @@ Both programs are included in the OSGeo4W-Package
 5. Keep an eye on the locations and names of the folders and files (<a href="data_structure.png">data_structure.png</a>)
 6. You can close the shell window)
 
+---
 1. Open QGIS
 2. Navigate to the folder "Fossgis" and double-click on the model "QGIS_Fossgis" to run it
 3. Put in all required data (should be self explanatory) and specify the output folder as the folder where the scripts are located
