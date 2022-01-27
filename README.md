@@ -95,9 +95,9 @@ Both programs are included in the OSGeo4W-Package
 1. Open QGIS
 2. Navigate to the folder "Fossgis" and double-click on the model "QGIS_Fossgis" to run it
 3. Put in all required data (should be self explanatory) and specify the output folder as the folder where the scripts are located
-  - we recommend using EPSG:25832 as CRS
-  - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names
-  - the vector data input "roi" is the output from the script "roi_extractor.bat", so it should be the shapefile in the "./data" folder named as your input for your roi
+    - we recommend using EPSG:25832 as CRS
+    - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names
+    - the vector data input "roi" is the output from the script "roi_extractor.bat", so it should be the shapefile in the "./data" folder named as your input for your roi
 4. Uncheck both check boxes
 5. Run the model
 6. Run the script "postprocessing.bat"
