@@ -57,14 +57,11 @@ Both programs are included in the OSGeo4W-Package
 </details>
 
 <details>
-   <summary><b>How to aquire vector data of the region of interest (roi)</b></summary>
+   <summary><b>How to aquire vector data</b></summary>
 <br>
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Geopackage
 2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the other data of this project is located (<a href="data_structure.png">data_structure.png</a>)
-3. Execute the script "roi_extractor.bat"
-4. You immediately are required to enter the roi. Any name of a city or town should work, for additional information you should look into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Gaggenau) - it has to be in the extent of the Sentinel-2 raster images!
-5. The outlines of the roi are now saved as a shapefile in the "./data" folder
 
 </details>
 
@@ -83,25 +80,36 @@ Both programs are included in the OSGeo4W-Package
 
 ## How to run
 
-**Attention: you are required to put all files in the exact locations and rename them exactly as described in this manual!**
+### Part 1: Preperation
 
-(Part 1: Preprocessing
-1. Rename the file with "B04" in its name into "B04.jp2" and the other one into "B08.jp2"
-3. Open the OSGeo4W Shell and navigate to the folder where the scripts are located
-4. Enter "preprocess.bat" and execute the command
-5. Keep an eye on the locations and names of the folders and files (<a href="data_structure.png">data_structure.png</a>)
-6. You can close the shell window)
+1. Open the OSGeo4W Shell and navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>)
+2. Execute the script "roi_extractor.bat"
+3. You immediately are required to enter the roi. Any name of a city or town should work, for additional information you should look into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Gaggenau) - it has to be in the extent of the Sentinel-2 raster images!
+5. The outlines of the roi are now saved as a shapefile in the "./data" folder
 
----
-1. Open QGIS
-2. Navigate to the folder "Fossgis" and double-click on the model "QGIS_Fossgis" to run it
-3. Put in all required data (should be self explanatory) and specify the output folder as the folder where the scripts are located
-    - we recommend using EPSG:25832 as CRS
+### Part 2: QGIS Model
+
+1. Open QGIS and navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and double-click on the model "TRNK_Model" to run it
+3. Put in all required data:
+    - CRS: leave the default setting (we recommend using EPSG:25832 in Germany)
     - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names
     - the vector data input "roi" is the output from the script "roi_extractor.bat", so it should be the shapefile in the "./data" folder named as your input for your roi
 4. Uncheck both check boxes
-5. Run the model
-6. Run the script "postprocessing.bat"
+5. Run the model (takes up to 1 min depending on your PC)
+6. It outputs one image and one excel file at the locations you specified as output folders
+
+### Part 3: Calculations in Excel
+
+1. Open the excel file
+2. Copy the values from the third column (no title)
+3. Navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and open "TRNK_Excel.xls"
+4. Paste the values in the column "m²"
+5. All following values should be automatically calculated
+6. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell "emissions:"
+7. The result should be calculated and a message should be displayed whether the vegetation suffices to compensate the CO2 emissions of you roi.
+
+
+**Congratulations, you completed this analysis!**
 
 ---
 ## Literature:
