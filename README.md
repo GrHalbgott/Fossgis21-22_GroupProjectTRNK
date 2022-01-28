@@ -27,13 +27,15 @@ Both programs are included in the OSGeo4W-Package
     - Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
 5. Complete the installation
 
-## Needed data
+## Required data
 
 - Multispectral raster data of Heidelberg: Sentinel 2 data (https://scihub.copernicus.eu/dhus/#/home), it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR 
 - Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, is structured in different administrative levels and comes with interesting additional data
 (- Landuse data (vector) of Heidelberg: ohsome API, because it's fast, it's free and it's versatile)
 - Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
 - Compensation ability of vegetation: values from literature 
+
+### Aquisition of the required data
 
 <details>
    <summary><b>How to aquire raster (Sentinel 2) data</b></summary>
