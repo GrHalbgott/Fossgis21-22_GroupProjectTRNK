@@ -48,8 +48,8 @@ Both programs are included in the OSGeo4W-Package
 7. Click on the search button (upper right of search box) and wait until results are displayed
 8. Search for an image with full extent (no black parts) and minimal cloud cover
 9. Hover over the entry and click on the eye icon ("View product details")
-    - If the images you are looking for are offline, you can add them to your cart. After a while (couple of minutes to maybe hours) they will be available to download
 10. Check in the quick look window if the data seems suitable
+    - If the images you are looking for are offline, you can add them to your cart. Go to your cart (upper left next to the three stripes) and click on download (hover over entry and click on the download icon). It should say that downloading offline products is not possible. At this time, there should appear a clock icon next to the "Offline" text which says either "pending" or "running". Click on the same donwload button again and it should state that the offline product retrieval is initiated. After a while (couple of minutes) the datasets will be made available to download.
 11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the two files "...B04..." & "...B08..." (both .jp2)
 12. When downloaded, put the two files in a folder "data" and move the folder to the location of the scripts of this project (take a look at <a href="data_structure.png">data_structure.png</a> for reference)
    
@@ -62,7 +62,7 @@ Both programs are included in the OSGeo4W-Package
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Geopackage
 2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the other data of this project is located (<a href="data_structure.png">data_structure.png</a>)
 3. Execute the script "roi_extractor.bat"
-4. You immediately are required to enter the roi. Any name of a city or town should work, for additional information you should look into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Bensheim) - it has to be in the extent of the Sentinel-2 raster images!
+4. You immediately are required to enter the roi. Any name of a city or town should work, for additional information you should look into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Gaggenau) - it has to be in the extent of the Sentinel-2 raster images!
 5. The outlines of the roi are now saved as a shapefile in the "./data" folder
 
 </details>
