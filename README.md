@@ -23,7 +23,8 @@ Programs:
 4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New". Under the section Desktop choose:
     - qgis: QGIS Desktop (3.22)
     - saga: SAGA (7.8.2-12)
-    >> Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
+    <br/><br/>
+    > Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
 5. Complete the installation
 
 ## Required data
@@ -38,7 +39,7 @@ Programs:
 
 <details>
    <summary><b>How to aquire raster (Sentinel 2) data</b></summary>
-<br>
+<br/>
     
 1. Navigate to <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub by ESA registration form</a> and set up an account
 2. Log in on <a href="https://scihub.copernicus.eu/dhus/#/home">Copernicus Open Access Hub</a>. Without logging in you cannot download the required data
@@ -59,7 +60,7 @@ Programs:
 
 <details>
    <summary><b>How to aquire vector data</b></summary>
-<br>
+<br/>
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Geopackage
 2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the other data of this project is located (<a href="data_structure.png">data_structure.png</a>)
@@ -68,7 +69,7 @@ Programs:
 
 <details>
    <summary><b>How to aquire emission data</b></summary>
-<br>
+<br/>
 
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel
@@ -85,7 +86,7 @@ Programs:
 
 <details>
    <summary><b>Part 1: Preperation</b></summary>
-<br>
+<br/>
     
 1. Open the OSGeo4W Shell and navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>)
 2. Execute the script "roi_extractor.bat"
@@ -96,7 +97,7 @@ Programs:
 
 <details>
    <summary><b>Part 2: QGIS Model</b></summary>
-<br>
+<br/>
 
 1. Open QGIS and navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and double-click on the model "TRNK_Model" to run it
 3. Put in all required data:
@@ -113,14 +114,14 @@ Programs:
 
 <details>
    <summary><b>Part 3: Calculations in Excel</b></summary>
-<br>
+<br/>
 
 1. Open the Excel file
 2. Copy the values from the third column (no title)
 3. Navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and open "TRNK_Excel.xls"
 4. Paste the values in the column "HERE (m²)"
 5. All following values should be automatically calculated
-6. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell "emissions"
+6. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (CO2/year)"
 7. The result should be calculated and a message should be displayed whether the vegetation suffices to compensate the CO2 emissions of you roi.
 
 > **Congratulations, you completed this analysis!**
