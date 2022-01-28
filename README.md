@@ -50,6 +50,7 @@ Programs:
 8. Search for an image with full extent (no black parts) and minimal cloud cover
 9. Hover over the entry and click on the eye icon ("View product details")
 10. Check in the quick look window if the data seems suitable
+<br/><br/>
     > If the images you are looking for are offline, you can add them to your cart. Go to your cart (upper left next to the three stripes) and click on download (hover over entry and click on the download icon). It should say that downloading offline products is not possible. At this time, there should appear a clock icon next to the "Offline" text which says either "pending" or "running". Click on the same dowwload button again and it should state that the offline product retrieval is initiated. At this point you did everything the right way. If you encouter problems try again following this manual. 
     > After a while (up to one hour) the datasets will be available to download for three days. Follow the next points to download the data:
 11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the two files "...B04..." & "...B08..." (both .jp2)
