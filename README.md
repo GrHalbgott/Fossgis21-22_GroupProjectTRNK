@@ -100,11 +100,13 @@ Both programs are included in the OSGeo4W-Package
 1. Open QGIS and navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and double-click on the model "TRNK_Model" to run it
 3. Put in all required data:
     - CRS: leave the default setting (we recommend using EPSG:25832 in Germany)
+    - the color definition file is "colors.txt" in your "./data" folder
     - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names
     - the vector data input "roi" is the output from the script "roi_extractor.bat", so it should be the shapefile in the "./data" folder named as your input for your roi
+    - it's not important where the output files are exported to, you just should find them easily afterwards (mind the recommendations)
 4. Uncheck both check boxes
 5. Run the model (takes up to 1 min depending on your PC)
-6. It outputs one image and one excel file at the locations you specified as output folders
+6. It outputs one image and one Excel file at the locations you specified as output folders
 
 </details>
 
@@ -112,12 +114,12 @@ Both programs are included in the OSGeo4W-Package
    <summary><b>Part 3: Calculations in Excel</b></summary>
 <br>
 
-1. Open the excel file
+1. Open the Excel file
 2. Copy the values from the third column (no title)
 3. Navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and open "TRNK_Excel.xls"
-4. Paste the values in the column "m²"
+4. Paste the values in the column "HERE (m²)"
 5. All following values should be automatically calculated
-6. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell "emissions:"
+6. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell "emissions"
 7. The result should be calculated and a message should be displayed whether the vegetation suffices to compensate the CO2 emissions of you roi.
 
 **Congratulations, you completed this analysis!**
