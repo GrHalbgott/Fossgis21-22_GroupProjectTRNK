@@ -80,14 +80,20 @@ Both programs are included in the OSGeo4W-Package
 
 ## How to run
 
-### Part 1: Preperation
-
+<details>
+   <summary><b>Part 1: Preperation</b></summary>
+<br>
+    
 1. Open the OSGeo4W Shell and navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>)
 2. Execute the script "roi_extractor.bat"
 3. You immediately are required to enter the roi. Any name of a city or town should work, for additional information you should look into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Gaggenau) - it has to be in the extent of the Sentinel-2 raster images!
 5. The outlines of the roi are now saved as a shapefile in the "./data" folder
 
-### Part 2: QGIS Model
+</details>
+
+<details>
+   <summary><b>Part 2: QGIS Model</b></summary>
+<br>
 
 1. Open QGIS and navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and double-click on the model "TRNK_Model" to run it
 3. Put in all required data:
@@ -98,7 +104,11 @@ Both programs are included in the OSGeo4W-Package
 5. Run the model (takes up to 1 min depending on your PC)
 6. It outputs one image and one excel file at the locations you specified as output folders
 
-### Part 3: Calculations in Excel
+</details>
+
+<details>
+   <summary><b>Part 3: Calculations in Excel</b></summary>
+<br>
 
 1. Open the excel file
 2. Copy the values from the third column (no title)
@@ -108,8 +118,9 @@ Both programs are included in the OSGeo4W-Package
 6. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell "emissions:"
 7. The result should be calculated and a message should be displayed whether the vegetation suffices to compensate the CO2 emissions of you roi.
 
-
 **Congratulations, you completed this analysis!**
+
+</details>
 
 ---
 ## Literature:
