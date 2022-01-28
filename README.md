@@ -124,7 +124,7 @@ Both programs are included in the OSGeo4W-Package
 6. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell "emissions"
 7. The result should be calculated and a message should be displayed whether the vegetation suffices to compensate the CO2 emissions of you roi.
 
-**Congratulations, you completed this analysis!**
+> **Congratulations, you completed this analysis!**
 
 </details>
 
