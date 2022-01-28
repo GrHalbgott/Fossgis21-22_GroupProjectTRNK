@@ -129,4 +129,6 @@ Both programs are included in the OSGeo4W-Package
 ---
 ## Literature:
 
-NDVI and classification of NDVI-values: https://www.researchgate.net/publication/275030305_Evaluating_Multispectral_Images_and_Vegetation_Indices_for_Precision_Farming_Applications_from_UAV_Images
+NDVI and classification of NDVI-values:
+- https://www.researchgate.net/publication/275030305_Evaluating_Multispectral_Images_and_Vegetation_Indices_for_Precision_Farming_Applications_from_UAV_Images
+- https://www.earthobservatory.nasa.gov/features/MeasuringVegetation
