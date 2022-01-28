@@ -13,8 +13,7 @@ Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen einer Region
 Programs:
 - QGIS Desktop 3.22 or newer
 - SAGA GIS 7.8.2 or newer
-
-Both programs are included in the OSGeo4W-Package
+> Both programs are included in the OSGeo4W-Package
 
 ### How to install
 
@@ -24,7 +23,7 @@ Both programs are included in the OSGeo4W-Package
 4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New". Under the section Desktop choose:
     - qgis: QGIS Desktop (3.22)
     - saga: SAGA (7.8.2-12)
-    - Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
+    > Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
 5. Complete the installation
 
 ## Required data
@@ -51,8 +50,8 @@ Both programs are included in the OSGeo4W-Package
 8. Search for an image with full extent (no black parts) and minimal cloud cover
 9. Hover over the entry and click on the eye icon ("View product details")
 10. Check in the quick look window if the data seems suitable
-    - If the images you are looking for are offline, you can add them to your cart. Go to your cart (upper left next to the three stripes) and click on download (hover over entry and click on the download icon). It should say that downloading offline products is not possible. At this time, there should appear a clock icon next to the "Offline" text which says either "pending" or "running". Click on the same dowwload button again and it should state that the offline product retrieval is initiated. At this point you did everything the right way. If you encouter problems try again following this manual. 
-    - After a while (up to one hour) the datasets will be available to download for three days. Follow the next points to download the data:
+    > If the images you are looking for are offline, you can add them to your cart. Go to your cart (upper left next to the three stripes) and click on download (hover over entry and click on the download icon). It should say that downloading offline products is not possible. At this time, there should appear a clock icon next to the "Offline" text which says either "pending" or "running". Click on the same dowwload button again and it should state that the offline product retrieval is initiated. At this point you did everything the right way. If you encouter problems try again following this manual. 
+    > After a while (up to one hour) the datasets will be available to download for three days. Follow the next points to download the data:
 11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the two files "...B04..." & "...B08..." (both .jp2)
 12. When downloaded, put the two files in a folder "data" and move the folder to the location of the scripts of this project (take a look at <a href="data_structure.png">data_structure.png</a> for reference)
    
