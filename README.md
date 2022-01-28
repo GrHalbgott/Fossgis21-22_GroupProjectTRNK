@@ -23,8 +23,7 @@ Programs:
 4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New". Under the section Desktop choose:
     - qgis: QGIS Desktop (3.22)
     - saga: SAGA (7.8.2-12)
-    <br/><br/>
-    > Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
+    - Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
 5. Complete the installation
 
 ## Required data
