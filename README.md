@@ -8,7 +8,7 @@ For a specific point in time we would like to determine the vegetation areas in 
 
 Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen einer Region of Interest (ROI) bestimmen und mit CO2-Emissionswerten vergleichen, um herausfinden, ob sie zur Kompensation dieser Emissionen ausreichen. Das Projekt soll dazu dienen, CO2-Emissionen einer ROI mit deren Vegetationsflächen in Zusammenhang zu setzen und Aussagen über die Klimabilanz der ROI treffen zu können. Durch Automatisierung sollen verschiedene Regionen einfach untersucht werden können.
 
-## Software requirements
+## Software requirements and Installation
 
 Programs:
 - QGIS Desktop 3.22 or newer
@@ -16,7 +16,7 @@ Programs:
 
 Both programs are included in the OSGeo4W-Package
 
-## How to install
+### How to install
 
 1. Download the OSGeo4W Installer from <a href="http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe">here</a> (official link to the current network-installer)
 2. Run the installer
