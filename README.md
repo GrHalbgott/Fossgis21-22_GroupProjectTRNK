@@ -41,7 +41,7 @@ Programs:
 <br/>
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Geopackage
-2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder to "./data" (take a look at <a href="data_structure.png">data_structure.png</a> for reference)
+2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder "./data" (take a look at <a href="data_structure.png">data_structure.png</a> for reference)
 
 </details>    
     
