@@ -135,3 +135,7 @@ Programs:
 NDVI and classification of NDVI-values:
 - https://www.researchgate.net/publication/275030305_Evaluating_Multispectral_Images_and_Vegetation_Indices_for_Precision_Farming_Applications_from_UAV_Images
 - https://www.earthobservatory.nasa.gov/features/MeasuringVegetation
+
+Sequestation ability: Convert C in CO2:
+- https://www.researchgate.net/publication/261699371_Sequestration_and_Carbon_Storage_Potential_of_Tropical_Forest_Reserve_and_Tree_Species_Located_within_Benue_State_of_Nigeria
+- https://www.unm.edu/~jbrink/365/Documents/Calculating_tree_carbon.pdf
