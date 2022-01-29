@@ -37,6 +37,15 @@ Programs:
 > The folder "data" in it is referred to as "./data" in all following steps: 
 
 <details>
+   <summary><b>How to aquire vector data</b></summary>
+<br/>
+
+1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Geopackage
+2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder to "./data" (take a look at <a href="data_structure.png">data_structure.png</a> for reference)
+
+</details>    
+    
+<details>
    <summary><b>How to aquire raster (Sentinel 2) data</b></summary>
 <br/>
     
@@ -56,15 +65,6 @@ Programs:
     > After a while (up to one hour) the datasets will be available to download for three days. Proceed to the next steps to download the data:
 11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the two files "...B04..." & "...B08..." (both .jp2)
 12. When downloaded, put the two files in the "./data" folder (take a look at <a href="data_structure.png">data_structure.png</a> for reference)
-   
-</details>
-
-<details>
-   <summary><b>How to aquire vector data</b></summary>
-<br/>
-
-1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Geopackage
-2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder where the other data of this project is located (<a href="data_structure.png">data_structure.png</a>)
 
 </details>
 
@@ -73,10 +73,9 @@ Programs:
 <br/>
 
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
-2. Specify the search area by zooming in with the mouse wheel
-3. Click on the three stripes to open the menue (upper right corner)
-4. Hover over the region you want to see data from and write down the red value
-5. Alternatively you can click on "About" on the right side and download the "allcountries.geojson.zip", but this is not required
+2. Specify the search area by zooming in with the mouse wheel and moving the map with left-click
+3. Hover over the region you want to see data from and you'll get a red value which shows the total CO2 emissions in tonnes for the year 2018
+4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the "project_data.zip" in the marked cell under "Emission value (t CO2/year)". This will be a step at "Part 3: Calculations" (see below)
 
 </details>
 
