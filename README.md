@@ -136,6 +136,12 @@ NDVI and classification of NDVI-values:
 - https://www.researchgate.net/publication/275030305_Evaluating_Multispectral_Images_and_Vegetation_Indices_for_Precision_Farming_Applications_from_UAV_Images
 - https://www.earthobservatory.nasa.gov/features/MeasuringVegetation
 
-Sequestation ability: Convert C in CO2:
+Sequestation ability values/convert C in CO2 formula:
 - https://www.researchgate.net/publication/261699371_Sequestration_and_Carbon_Storage_Potential_of_Tropical_Forest_Reserve_and_Tree_Species_Located_within_Benue_State_of_Nigeria
 - https://www.unm.edu/~jbrink/365/Documents/Calculating_tree_carbon.pdf
+- https://www.frontiersin.org/articles/10.3389/fevo.2016.00053/full
+- https://www.co2-acker.de/
+
+Difficulties when balancing CO2 emissions:
+- https://www.researchgate.net/publication/352705359_Nur_die_langfristige_CO2-Bindung_zahlt
+- https://www.frontiersin.org/articles/10.3389/fevo.2015.00144/full
