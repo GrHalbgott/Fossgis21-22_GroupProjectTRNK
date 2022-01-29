@@ -39,7 +39,9 @@ Programs:
 <details>
    <summary><b>data_structure.png</b></summary>
 <br/>
-   <img src="data_structure.png"></img>
+    
+   <img src="data_structure.png">
+    
 </details)
 
 <details>
