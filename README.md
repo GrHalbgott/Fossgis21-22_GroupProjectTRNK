@@ -1,12 +1,10 @@
-# Does the current vegetation in Heidelberg suffice to compensate the GHG emissions of the whole city?
+# Does the current vegetation in Heidelberg suffice to compensate the CO2 emissions of the whole city?
 
 <a href="https://github.com/fossgis2122/home/blob/e5aa74674c3a5d00ed566d79ccd8507bb6f41c33/docs/project_deliverables.md">Deliverables</a>
 
 ## General information
 
-For a specific point in time we would like to determine the vegetation areas in a region of interest (roi) and compare them with CO2 emission values to find out whether they are sufficient enough to compensate those emissions. The project should serve to correlate CO2 emissions of a roi with its vegetation areas and to be able to make statements about the climate balance. Through automation, different regions should be able to be examined easily.
-
-Für einen konkreten Zeitpunkt möchten wir die Vegetationsflächen einer Region of Interest (ROI) bestimmen und mit CO2-Emissionswerten vergleichen, um herausfinden, ob sie zur Kompensation dieser Emissionen ausreichen. Das Projekt soll dazu dienen, CO2-Emissionen einer ROI mit deren Vegetationsflächen in Zusammenhang zu setzen und Aussagen über die Klimabilanz der ROI treffen zu können. Durch Automatisierung sollen verschiedene Regionen einfach untersucht werden können.
+For a specific point in time we would like to determine the vegetation areas in a region of interest (roi) and compare them with CO2 emission values to find out whether they are sufficient enough to compensate those emissions. The project should serve to correlate CO2 emissions of a roi with its vegetation areas and to be able to make statements about the climate balance. Through automation, different regions should be able to be examined easily. It should be pointed out that all values are estimated and not to be taken as scientific proven.
 
 ## Software requirements and Installation
 
