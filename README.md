@@ -40,7 +40,8 @@ Programs:
    <summary><b>data_structure.png</b></summary>
 <br/>
   <img src="data_structure.png"></img>
-</details)
+  
+</details>  
 
 <details>
    <summary><b>How to aquire vector data</b></summary>
