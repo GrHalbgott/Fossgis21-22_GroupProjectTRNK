@@ -28,11 +28,13 @@ Programs:
 
 - Multispectral raster data of Heidelberg: Sentinel 2 data (https://scihub.copernicus.eu/dhus/#/home), it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR 
 - Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, is structured in different administrative levels and comes with interesting additional data
-(- Landuse data (vector) of Heidelberg: ohsome API, because it's fast, it's free and it's versatile)
 - Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
 - Compensation ability of vegetation: values from literature 
 
 ### Aquisition of the required data
+
+First step: download the file "project_data.zip" and extract the files into a folder (choose a name).
+The folder "data" in it is referred as "./data" to in all following steps: 
 
 <details>
    <summary><b>How to aquire raster (Sentinel 2) data</b></summary>
@@ -53,7 +55,7 @@ Programs:
 <br/><br/>
     > After a while (up to one hour) the datasets will be available to download for three days. Proceed to the next steps to download the data:
 11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the two files "...B04..." & "...B08..." (both .jp2)
-12. When downloaded, put the two files in a folder "data" and move the folder to the location of the scripts of this project (take a look at <a href="data_structure.png">data_structure.png</a> for reference)
+12. When downloaded, put the two files in the "./data" folder (take a look at <a href="data_structure.png">data_structure.png</a> for reference)
    
 </details>
 
@@ -73,9 +75,8 @@ Programs:
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel
 3. Click on the three stripes to open the menue (upper right corner)
-4. Click on Counties (lvl=6)
-5. Hover over the region you want to see data from and write down the red value
-6. Alternatively you can click on "About" on the right side and download the "allcountries.geojson.zip", but this is not required
+4. Hover over the region you want to see data from and write down the red value
+5. Alternatively you can click on "About" on the right side and download the "allcountries.geojson.zip", but this is not required
 
 </details>
 
@@ -98,7 +99,7 @@ Programs:
    <summary><b>Part 2: QGIS Model</b></summary>
 <br/>
 
-1. Open QGIS and navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and double-click on the model "TRNK_Model" to run it
+1. Open QGIS and navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and double-click on the model "QGIS_Model" to run it
 3. Put in all required data:
     - CRS: leave the default setting (we recommend using EPSG:25832 in Germany)
     - the color definition file is "colors.txt" in your "./data" folder
@@ -117,11 +118,11 @@ Programs:
 
 1. Open the Excel file
 2. Copy the values from the third column (no title)
-3. Navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and open "TRNK_Excel.xls"
+3. Navigate to the folder where the scripts are located (<a href="data_structure.png">data_structure.png</a>) and open "Excelsheet.xls"
 4. Paste the values in the column "HERE (m²)"
-5. All following values should be automatically calculated
-6. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (CO2/year)"
-7. The result should be calculated and a message should be displayed whether the vegetation suffices to compensate the CO2 emissions of you roi.
+5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO2/year)"
+6. All following values including the result should be automatically calculated
+7. The result is displayed through a color of the corresponding cells. It states whether the vegetation suffices to compensate the CO2 emissions of your roi
 
 > **Congratulations, you completed this analysis!**
 
