@@ -33,8 +33,7 @@ Programs:
 
 ### Aquisition of the required data
 
-> First step: download the file "project_data.zip" and extract the files into a folder (choose a name). 
-<br/>
+> First step: download the file "project_data.zip" and extract the files into a folder (choose a name). <br/>
 > The folder "data" in it is referred as "./data" to in all following steps: 
 
 <details>
