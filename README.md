@@ -138,6 +138,7 @@ NDVI and classification of NDVI-values:
 
 Sequestation ability values/convert C in CO2 formula:
 - https://www.researchgate.net/publication/261699371_Sequestration_and_Carbon_Storage_Potential_of_Tropical_Forest_Reserve_and_Tree_Species_Located_within_Benue_State_of_Nigeria
+- https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2011.02021.x
 - https://www.unm.edu/~jbrink/365/Documents/Calculating_tree_carbon.pdf
 - https://www.frontiersin.org/articles/10.3389/fevo.2016.00053/full
 - https://www.co2-acker.de/
