@@ -89,7 +89,7 @@ Programs:
 ## How to run
 
 <details>
-   <summary><b>Part 1: Preperation</b></summary>
+   <summary><b>Part 1: Preparation</b></summary>
 <br/>
     
 1. Open the OSGeo4W Shell and navigate to the project folder
