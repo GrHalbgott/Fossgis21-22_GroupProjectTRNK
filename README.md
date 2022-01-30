@@ -1,4 +1,4 @@
-# Does the vegetation of a specific regionn suffice to compensate the CO2 emissions of this exact region?
+# Does the vegetation of a specific region suffice to compensate the CO2 emissions of this exact region?
 
 <a href="https://github.com/fossgis2122/home/blob/e5aa74674c3a5d00ed566d79ccd8507bb6f41c33/docs/project_deliverables.md">Deliverables</a>
 
