@@ -29,7 +29,7 @@ Programs:
 - Multispectral raster data of Heidelberg: Sentinel 2 data (https://scihub.copernicus.eu/dhus/#/home), it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR 
 - Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, is structured in different administrative levels and comes with interesting additional data
 - Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
-- Compensation ability of vegetation: values from literature 
+- Sequestration ability of vegetation: values from literature 
 
 ### Aquisition of the required data
 
@@ -141,7 +141,7 @@ NDVI and classification of NDVI-values:
 - https://www.researchgate.net/publication/275030305_Evaluating_Multispectral_Images_and_Vegetation_Indices_for_Precision_Farming_Applications_from_UAV_Images
 - https://www.earthobservatory.nasa.gov/features/MeasuringVegetation
 
-Sequestation ability values/convert C in CO2 formula:
+Sequestration ability values/convert C in CO2 formula:
 - https://www.researchgate.net/publication/261699371_Sequestration_and_Carbon_Storage_Potential_of_Tropical_Forest_Reserve_and_Tree_Species_Located_within_Benue_State_of_Nigeria
 - https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2011.02021.x
 - https://www.unm.edu/~jbrink/365/Documents/Calculating_tree_carbon.pdf
