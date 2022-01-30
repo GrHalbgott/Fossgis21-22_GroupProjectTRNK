@@ -95,7 +95,7 @@ Programs:
 1. Open the OSGeo4W Shell and navigate to the project folder
 2. Execute the script "roi_extractor.bat"
 3. You immediately are required to enter the roi. Any name of a city or town should work, for additional information you should look with QGIS into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Gaggenau) - it has to be in the extent of the Sentinel 2 raster images!
-5. The outlines of the roi are now automatically saved as a shapefile in the "./data" folder
+5. Click enter. The outlines of the roi are now automatically saved as a shapefile in the "./data" folder
 
 </details>
 
@@ -103,17 +103,17 @@ Programs:
    <summary><b>Part 2: QGIS Model</b></summary>
 <br/>
 
-1. Open QGIS and navigate to the project folder and double-click on the model "QGIS_Model" to run it
+1. Open QGIS, navigate to the project folder and double-click on the model "QGIS_Model" to run it
 3. Put in all required data:
     - CRS: leave the default setting (we recommend using EPSG:25832 for Germany)
     - the color definition file is "colors.txt" in your "./data" folder
     - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names
     - the vector data input "roi" is the output from the script "roi_extractor.bat", so it should be the shapefile in the "./data" folder named as your input for your roi
-    - it's not important where the output files are exported to, you just should find them easily afterwards (mind the recommendations)
+    - it's not important where the output files are exported to, you just should find them easily afterwards
 4. Uncheck both check boxes
 5. Run the model (takes up to 1 min depending on your PC)
 6. It outputs one image and one Excel file at the locations you specified as output folders
-    7. Take a look at the image and compare it to <a href="ndvi_colored.png">ndvi_colored.png</a> - does it makes sense? There should be your roi colored in four colors (no vegetation in red to high level of vegetation in green)
+7. Take a look at the image and compare it to <a href="ndvi_colored.png">ndvi_colored.png</a> - does it makes sense? There should be your roi colored in four colors (no vegetation in red to high level of vegetation in green)
 8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model!
 
 </details>
@@ -126,9 +126,9 @@ Programs:
 2. Copy the values from the third column (no title)
 3. Navigate to the project folder and open "Excelsheet.xls"
 4. Paste the values in the column "HERE (m²)" (blue background)
-5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO2/year)" (blue background)
+5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO2/year)" (blue background) if you did not already
 6. All following values including the result should be automatically calculated
-7. The result is displayed through a color of the corresponding cells. It states whether the vegetation suffices to compensate the CO2 emissions of your roi
+7. The result is displayed through a color in the corresponding cells. It states whether the vegetation suffices to compensate the CO2 emissions of your roi or not
 
 > **Congratulations, you completed this analysis!**
 
