@@ -111,7 +111,7 @@ Programs:
     - the vector data input "roi" is the output from the script "roi_extractor.bat", so it should be the shapefile in the "./data" folder named as your input for your roi
     - it's not important where the output files are exported to, you just should find them easily afterwards
 4. Uncheck both check boxes
-5. Run the model (takes up to 1 min depending on your PC)
+5. Run the model (takes up to 1 min depending on your PC, mine took 45 seconds)
 6. It outputs one image and one Excel file at the locations you specified as output folders
 7. Take a look at the image and compare it to <a href="ndvi_colored.png">ndvi_colored.png</a> - does it makes sense? There should be your roi colored in four colors (no vegetation in red to high level of vegetation in green)
 8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model!
