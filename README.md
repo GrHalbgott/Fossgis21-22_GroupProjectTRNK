@@ -114,7 +114,7 @@ Programs:
 5. Run the model (takes up to 1 min depending on your PC)
 6. It outputs one image and one Excel file at the locations you specified as output folders
 <br/><br/>
-    > If you need help with running the model, check this <a href="How_to_model.mp4">walkthrough</a> of the execution
+    > If you need help with running the model, check this <a href="How_to_model.mp4">walkthrough</a> of its execution
 7. Take a look at the image and compare it to <a href="ndvi_colored.png">ndvi_colored.png</a> - does it makes sense? There should be your roi colored in four colors (no vegetation in red to high level of vegetation in green)
 8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model!
 
