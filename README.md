@@ -143,6 +143,10 @@ If not, feel free to choose any you like and install it accordingly.
 
 </details>
 
+---
+
+For further information on the model and the specific calculations you can look into <a href="specifics.md">specifics.md</a>. If you have any questions feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository to get in touch with us. We are looking forward to your ideas!
+
 ## Literature:
 
 NDVI and classification of NDVI-values:
