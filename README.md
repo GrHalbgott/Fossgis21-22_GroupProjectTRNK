@@ -1,6 +1,6 @@
 # Plants versus CO<sub>2</sub>
 
-### *Classification, Calculation and Comparison: <br/> Does the vegetation of a specific region suffice to compensate the CO<sub>2</sub> emissions of this exact region?*
+### *Classification, Calculation and Comparison: <br/><br/> Does the vegetation of a specific region suffice to compensate the CO<sub>2</sub> emissions of this exact region?*
 
 ## General information
 
@@ -10,10 +10,11 @@ For a specific point in time we would like to determine the vegetation areas in 
 
 Programs (we used):
 - QGIS Desktop 3.22
-- SAGA GIS 7.8.2
-> Both programs are included in the OSGeo4W-Package
+- with the following Plugins:
+    - SAGA 7.8.2-14
+    - GRASS GIS 7.8.6-7
+> Those programs and plugins are all are included in the OSGeo4W-Package
 - Microsoft Excel (any Spreadsheet with basic calculation tools will do)
-
 
 ### How to install
 
@@ -21,11 +22,15 @@ Programs (we used):
 1. Download the OSGeo4W Installer from <a href="http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe">here</a> (official link to the current network-installer)
 2. Run the installer
 3. Select Advanced Install, click through the steps and keep the default values
-4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New". Under the section Desktop choose:
+4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New". You can search for their names in the searchbar.
+5. Under the section "Desktop" choose:
     - qgis: QGIS Desktop (3.22)
-    - saga: SAGA (7.8.2-12)
-    - Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
-5. Complete the installation
+    - saga: SAGA (7.8.2-14)
+    - grass: GRASS GIS (7.8.6-8)
+6. Under the section "Libs" choose:
+    - qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1)
+    - Note: Additional packages which are needed to run the ones listed above will be selected automatically. Just keep those as well.
+8. Complete the installation
 
 #### Spreadsheet:
 You should already have a Spreadsheet program installed. 
@@ -54,8 +59,8 @@ If not, feel free to choose any you like and install it accordingly.
    <summary><b>How to aquire vector data</b></summary>
 <br/>
 
-1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Geopackage
-2. When downloaded, unzip the ZIP-file and move the Geopackage to the folder "./data"
+1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Shapefile
+2. When downloaded, unzip the ZIP-file and move the whole folder to the folder "./data"
 
 </details>    
     
@@ -96,39 +101,30 @@ If not, feel free to choose any you like and install it accordingly.
 ## How to run
 
 <details>
-   <summary><b>Part 1: Preparation</b></summary>
-<br/>
-    
-1. Open the OSGeo4W Shell and navigate to the project folder
-2. Execute the script "roi_extractor.bat"
-3. You immediately are required to enter the roi. Any name of a city or town should work, for additional information you should look with QGIS into the gadm36_DEU.gpkg and search under column "Name_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Gaggenau) - it has to be in the extent of the Sentinel 2 raster images!
-5. Click enter. The outlines of the roi are now automatically saved as a shapefile in the "./data" folder
-
-</details>
-
-<details>
-   <summary><b>Part 2: QGIS Model</b></summary>
+   <summary><b>Part 1: QGIS Model</b></summary>
 <br/>
 
 1. Open QGIS, navigate to the project folder and double-click on the model "QGIS_Model" to run it
 3. Put in all required data:
     - CRS: leave the default setting (we recommend using EPSG:25832 for Germany)
     - the color definition file is "colors.txt" in your "./data" folder
+    - the GADM Shapefile is the file in your GADM folder with the number 3 (if there is not one you have to take a look at <a href="Exaples and help/specifics.md">specifics - region of interest</a>)
+    - the Name of your roi is the region you want to analyse. Any name of a city or town should work, for additional information you should into the shapefile search under column "NAME_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Gaggenau) - it has to be in the extent of the Sentinel 2 raster images!
     - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names (the right order is very important!)
-    - the vector data input "roi" is the output from the script "roi_extractor.bat", so it should be the shapefile in the "./data" folder named as your input for your roi
-    - it's not important where the output files are exported to, you just should find them easily afterwards
+    - the reclassification matrix is the table with information on how the tool shall reclassify - leave the default setting
+    - the next two parts are the outputs: it's not important where the output files are exported to, you just should find them easily afterwards
 4. Uncheck both check boxes
-5. Run the model (takes up to 1 min depending on your PC)
+5. Run the model
 6. It outputs one image and one Excel file at the locations you specified as output folders
 <br/><br/>
-    > If you need help with running the model, check this <a href="How_to_model.mp4">walkthrough</a> of its execution
-7. Take a look at the image and compare it to <a href="ndvi_colored.png">ndvi_colored.png</a> - does it makes sense? There should be your roi colored in four colors (no vegetation in red to high level of vegetation in green)
+    > If you need help with running the model, check this <a href="Examples and help/Walkthrough - model.mp4">walkthrough</a> of its execution
+7. Take a look at the image and compare it to <a href="Examples and help/ndvi_colored.png">ndvi_colored.png</a> - does it makes sense? There should be your roi colored in four colors (no vegetation in red to high level of vegetation in green)
 8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model!
 
 </details>
 
 <details>
-   <summary><b>Part 3: Calculations in Excel</b></summary>
+   <summary><b>Part 2: Calculations in Excel</b></summary>
 <br/>
 
 1. Open the Excel file you got from the model as output 
