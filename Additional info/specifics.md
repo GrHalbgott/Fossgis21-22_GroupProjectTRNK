@@ -22,9 +22,26 @@ Input values are the frequency of pixels in a class (like "class 3 = 600.000" me
 
 |Value range|Assigned class|Represents|
 |-----|-----|-----|
-|-9999 - 0.2|1|no vegetation|
+|-1.1 - 0.2|1|no vegetation|
 |0.2 - 0.4 |2|low level of vegetation (shrub/grass)|
 |0.4 - 0.6 |3|medium level of vegetation (crops)|
 |0.6 - 1 |4|high level of vegetation (forest)|
 
+Note: we include values from -1.1, because there are some error values slightly smaller than -1 which we want to include in class 1. Furtermore we want to leave the NoDate value of -9999 as it is and not include it, because the coloring works with this value as well (take a look at the coloring chapter).
+  
+</details>
+
+<details>
+  <summary>Coloring</summary>
+<br/>
+
+This is the content of the color definition file:
+
+-9999 255 255 255 0
+1 215 25 28 100
+2 255 255 120 100
+4 26 150 65 100
+
+It is structured as "value (of class), red, green, blue, hue". The NoData value (-9999) is included to always paint te background white.
+  
 </details>
