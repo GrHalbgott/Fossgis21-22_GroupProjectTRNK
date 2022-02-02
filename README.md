@@ -59,8 +59,8 @@ If not, feel free to choose any you like and install it accordingly.
    <summary><b>How to aquire vector data</b></summary>
 <br/>
 
-1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select Germany and download the Shapefile
-2. When downloaded, unzip the ZIP-file and move the whole folder to the folder "./data"
+1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select any country you want and download the Shapefile
+2. When downloaded, unzip the ZIP-file into a folder (e.g. gadm36_DEU for Germany) and move the whole folder to the folder "./data"
 
 </details>    
     
@@ -92,7 +92,7 @@ If not, feel free to choose any you like and install it accordingly.
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel and moving the map with left-click
 3. Hover over the region you want to see data from and you'll get a red value which shows the total CO<sub>2</sub> emissions in tonnes for the year 2018
-4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the "project_data.zip" in the marked cell beneath "Emission value (t CO<sub>2</sub>/year)" (blue background). This will be a step at "Part 3: Calculations" (see below) as well
+4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the "project_data.zip" in the marked cell beneath "Emission value (t CO<sub>2</sub>/year)" (blue background). This will be a step at "Part 2: Calculations" (see below) as well
 
 </details>
 
@@ -108,8 +108,8 @@ If not, feel free to choose any you like and install it accordingly.
 3. Put in all required data:
     - CRS: leave the default setting (we recommend using EPSG:25832 for Germany)
     - the color definition file is "colors.txt" in your "./data" folder
-    - the GADM Shapefile is the file in your GADM folder with the number 3 (if there is not one you have to take a look at <a href="Exaples and help/specifics.md">specifics - region of interest</a>)
-    - the Name of your roi is the region you want to analyse. Any name of a city or town should work, for additional information you should into the shapefile search under column "NAME_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Gaggenau) - it has to be in the extent of the Sentinel 2 raster images!
+    - the GADM Shapefile is the .shp-file in your gadm folder with the number 3 (if there is not one you have to take a look at <a href="Exaples and help/specifics.md">specifics - region of interest</a>)
+    - the Name of your roi is the region you want to analyse. Any name of a city or town should work, for additional information you should look into the shapefile and search under column "NAME_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Gaggenau) - it has to be in the extent of the Sentinel 2 raster images!
     - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names (the right order is very important!)
     - the reclassification matrix is the table with information on how the tool shall reclassify - leave the default setting
     - the next two parts are the outputs: it's not important where the output files are exported to, you just should find them easily afterwards
@@ -118,7 +118,7 @@ If not, feel free to choose any you like and install it accordingly.
 6. It outputs one image and one Excel file at the locations you specified as output folders
 <br/><br/>
     > If you need help with running the model, check this <a href="Examples and help/Walkthrough - model.mp4">walkthrough</a> of its execution
-7. Take a look at the image and compare it to <a href="Examples and help/ndvi_colored.png">ndvi_colored.png</a> - does it makes sense? There should be your roi colored in four colors (no vegetation in red to high level of vegetation in green)
+7. Take a look at the image and compare it to <a href="Examples and help/NDVI colored.png">NDVI colored.png</a> - does it makes sense? You should see your roi colored from red to green on a white background
 8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model!
 
 </details>
