@@ -94,7 +94,7 @@ If not, feel free to choose any you like and install it accordingly.
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel and moving the map with left-click
 3. Hover over the region you want to see data from and you'll get a red value which shows the total CO<sub>2</sub> emissions in tonnes for the year 2018
-4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the `project_data.zip` in the marked cell beneath `Emission value (t CO<sub>2</sub>/year)` (blue background). This will be a step at "Part 2: Calculations" (see below) as well
+4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the `project_data.zip` in the marked cell beneath "Emission value (t CO<sub>2</sub>/year)" (blue background). This will be a step at "Part 2: Calculations" (see below) as well
 
 </details>
 
