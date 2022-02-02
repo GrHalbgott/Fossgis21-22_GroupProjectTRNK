@@ -133,8 +133,8 @@ If not, feel free to choose any you like and install it accordingly.
 1. Open the Excel file you got from the model as output 
 2. Copy the values from the third column (no title)
 3. Navigate to the project folder and open "Excelsheet.xls"
-4. Paste the values in the column `HERE (m²)` (blue background)
-5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under `Emission value (t CO<sub>2</sub>/year)` (blue background) if you did not already
+4. Paste the values in the column "HERE (m²)" (blue background)
+5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under ==Emission value (t CO<sub>2</sub>/year)== (blue background) if you did not already
 6. All following values including the result should be automatically calculated
 7. The result is displayed through a color in the corresponding cells. It states whether the vegetation suffices to compensate the CO<sub>2</sub> emissions of your roi or not
 
