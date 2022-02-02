@@ -47,7 +47,7 @@ The option "use smoothly blended colors" enables interpolation of colors between
   
 </details>
 
-##Troubleshooting:
+## Troubleshooting:
 
 <details>
   <summary>Region of interest</summary>
