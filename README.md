@@ -1,6 +1,6 @@
 # Plants versus CO<sub>2</sub>
 
-### *Classification: Does the vegetation of a specific region <br/> Calculation: suffice to compensate <br/> Comparison: the CO<sub>2</sub> emissions of this exact region?*
+### *Classification, Calculation and Comparison: Does the vegetation of a specific region suffice to compensate the CO<sub>2</sub> emissions of this exact region?*
 
 ## General information
 
