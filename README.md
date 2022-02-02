@@ -108,7 +108,7 @@ If not, feel free to choose any you like and install it accordingly.
 3. Put in all required data:
     - CRS: leave the default setting (we recommend using EPSG:25832 for Germany)
     - the color definition file is "colors.txt" in your "./data" folder
-    - the GADM Shapefile is the .shp-file in your gadm folder with the number 3 (if there is not one you have to take a look at <a href="Exaples and help/specifics.md">specifics - region of interest</a>)
+    - the GADM Shapefile is the .shp-file in your gadm folder with the number 3 (if there is not one you have to take a look at <a href="Additional info/specifics.md">specifics - region of interest</a>)
     - the Name of your roi is the region you want to analyse. Any name of a city or town should work, for additional information you should look into the shapefile and search under column "NAME_3" for the exact name of your roi (try e.g. Heidelberg, Karlsruhe, Speyer or Gaggenau) - it has to be in the extent of the Sentinel 2 raster images!
     - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names (the right order is very important!)
     - the reclassification matrix is the table with information on how the tool shall reclassify - leave the default setting
@@ -143,7 +143,7 @@ If not, feel free to choose any you like and install it accordingly.
 
 ### *Note:*
 
-For further information on the model and the specific calculations you can look into <a href="specifics.md">specifics.md</a>. If you have any questions feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository to get in touch with us. We are looking forward to your ideas!
+For further information on the model and the specific calculations you can look into <a href="Additional info/specifics.md">specifics.md</a>. If you have any questions feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository to get in touch with us. We are looking forward to your ideas!
 
 ## Literature:
 
