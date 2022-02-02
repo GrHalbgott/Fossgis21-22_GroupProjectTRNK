@@ -143,7 +143,6 @@ If not, feel free to choose any you like and install it accordingly.
 
 </details>
 
----
 ## Literature:
 
 NDVI and classification of NDVI-values:
