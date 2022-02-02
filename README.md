@@ -1,10 +1,10 @@
-# Plants versus CO<sub>2</sub>
+# Plants versus CO~2~
 
-### Classification, Calculation and Comparison: <br/> *Does the vegetation of a specific region suffice to compensate the CO<sub>2</sub> emissions of this exact region?*
+### Classification, Calculation and Comparison: <br/> *Does the vegetation of a specific region suffice to compensate the CO~2~ emissions of this exact region?*
 
 ## General information
 
-For a specific point in time we would like to determine the vegetation areas in a region of interest (roi) and compare them with CO<sub>2</sub> emission values to find out whether they are sufficient enough to compensate those emissions. The project should serve to correlate CO<sub>2</sub> emissions of a roi with its vegetation areas and to be able to make statements about the climate balance. Through automation, different regions should be able to be examined easily. It should be pointed out that all values are estimated and not to be taken as scientifically proven.
+For a specific point in time we would like to determine the vegetation areas in a region of interest (roi) and compare them with CO~2~ emission values to find out whether they are sufficient enough to compensate those emissions. The project should serve to correlate CO~2~ emissions of a roi with its vegetation areas and to be able to make statements about the climate balance. Through automation, different regions should be able to be examined easily. It should be pointed out that all values are estimated and not to be taken as scientifically proven.
 
 ## Software requirements and Installation
 
@@ -24,9 +24,11 @@ Programs (we used):
 3. Select Advanced Install, click through the steps and keep the default values
 4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New". You can search for their names in the searchbar.
 5. Under the section "Desktop" choose:
-`qgis: QGIS Desktop (3.22)
-saga: SAGA (7.8.2-14)
-grass: GRASS GIS (7.8.6-8)`
+`
+qgis: QGIS Desktop (3.22) <br/>
+saga: SAGA (7.8.2-14) <br/>
+grass: GRASS GIS (7.8.6-8) <br/>
+`
 6. Under the section "Libs" choose:
     - qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1)
     - Note: Additional packages which are needed to run the ones listed above will be selected automatically. Just keep those as well.
@@ -40,7 +42,7 @@ If not, feel free to choose any you like and install it accordingly.
 
 - Multispectral raster data of Heidelberg: Sentinel 2 data (https://scihub.copernicus.eu/dhus/#/home), it's available free and has a resolution of 10m in the needed bands red and NIR 
 - Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, is structured in different administrative levels and comes with interesting additional data
-- Emission (CO<sub>2</sub>) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
+- Emission (CO~2~) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
 - Sequestration ability of vegetation: values from literature 
 
 ### Aquisition of the required data
@@ -91,12 +93,12 @@ If not, feel free to choose any you like and install it accordingly.
 
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel and moving the map with left-click
-3. Hover over the region you want to see data from and you'll get a red value which shows the total CO<sub>2</sub> emissions in tonnes for the year 2018
-4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the "project_data.zip" in the marked cell beneath "Emission value (t CO<sub>2</sub>/year)" (blue background). This will be a step at "Part 2: Calculations" (see below) as well
+3. Hover over the region you want to see data from and you'll get a red value which shows the total CO~2~ emissions in tonnes for the year 2018
+4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the "project_data.zip" in the marked cell beneath "Emission value (t CO~2~/year)" (blue background). This will be a step at "Part 2: Calculations" (see below) as well
 
 </details>
 
-> Example data is provided through <a href="https://heibox.uni-heidelberg.de/d/d8ca553e0e2246a8bf57/">heiBOX</a>. The emission value for Heidelberg is 472.689 t CO<sub>2</sub>/year (2018).
+> Example data is provided through <a href="https://heibox.uni-heidelberg.de/d/d8ca553e0e2246a8bf57/">heiBOX</a>. The emission value for Heidelberg is 472.689 t CO~2~/year (2018).
 
 ## How to run
 
@@ -106,13 +108,13 @@ If not, feel free to choose any you like and install it accordingly.
 
 1. Open QGIS, navigate to the project folder and double-click on the model "QGIS_Model" to run it
 3. Put in all required data:
-    - Column name depends on the admin level of your roi. Every country has different admin levels and so you have to specify which column of the according shapefile (gadm) you want to use to search for your roi. For cities in Germany, leave the default setting (more info under <a href="Additional info/specifics.md">specifics - region of interest</a>
+    - Column name depends on the admin level of your roi. Every country has different admin levels and so you have to specify which column of the according shapefile (gadm) you want to use to search for your roi. For cities in Germany, leave the default setting [^1]
     - CRS: specify in which ccordinate reference system you want to project your data. For analyses in Germany, leave the default setting
-    - The color definition file is "colors.txt" in your "./data" folder (more info under <a href="Additional info/specifics.md">specifics - coloring</a>
-    - GADM shapefile is the .shp-file in your gadm folder with the according number as specified under "Column name"
+    - The color definition file is "colors.txt" in your "./data" folder [^1]
+    - GADM shapefile is the .shp-file in your gadm folder with the according number as specified under "Column name" [^1]
     - Name of your roi is the region you want to analyse. Any name of a city or town should work, as long as you specify the right admin level. It has to be in the extent of the Sentinel 2 raster images!
     - The raster bands are the two from the "./data" folder with "B04" and "B08" in their names (the right order is very important!)
-    - Reclassification matrix is the table with information on how the tool shall reclassify - leave the default setting
+    - Reclassification matrix is the table with information on how the tool shall reclassify [^1] - leave the default setting
     - The next two parts are the outputs: it's not important where the output files are exported to, you just should find them easily afterwards (we recommend using the project data folder and naming both output or results)
 4. Uncheck both check boxes
 5. Run the model
@@ -132,9 +134,9 @@ If not, feel free to choose any you like and install it accordingly.
 2. Copy the values from the third column (no title)
 3. Navigate to the project folder and open "Excelsheet.xls"
 4. Paste the values in the column "HERE (m²)" (blue background)
-5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO<sub>2</sub>/year)" (blue background) if you did not already
+5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO~2~/year)" (blue background) if you did not already
 6. All following values including the result should be automatically calculated
-7. The result is displayed through a color in the corresponding cells. It states whether the vegetation suffices to compensate the CO<sub>2</sub> emissions of your roi or not
+7. The result is displayed through a color in the corresponding cells. It states whether the vegetation suffices to compensate the CO~2~ emissions of your roi or not
 
 ### Congratulations, you completed this analysis!
 
@@ -142,9 +144,9 @@ If not, feel free to choose any you like and install it accordingly.
 
 ---
 
-### *Note:*
+### *Footnote:*
 
-For further information on the model and the specific calculations you can look into <a href="Additional info/specifics.md">specifics.md</a>. If you have any questions feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository to get in touch with us. We are looking forward to your ideas!
+[^1]: For further information on the model and the specific calculations you can look into <a href="Additional info/specifics.md">specifics.md</a>. If you have any questions feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository to get in touch with us. We are looking forward to your ideas!
 
 ## Literature:
 
@@ -152,13 +154,13 @@ NDVI and classification of NDVI-values:
 - https://www.researchgate.net/publication/275030305_Evaluating_Multispectral_Images_and_Vegetation_Indices_for_Precision_Farming_Applications_from_UAV_Images
 - https://www.earthobservatory.nasa.gov/features/MeasuringVegetation
 
-Sequestration ability values/convert C in CO<sub>2</sub> formula:
+Sequestration ability values/convert C in CO~2~ formula:
 - https://www.researchgate.net/publication/261699371_Sequestration_and_Carbon_Storage_Potential_of_Tropical_Forest_Reserve_and_Tree_Species_Located_within_Benue_State_of_Nigeria
 - https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2011.02021.x
 - https://www.unm.edu/~jbrink/365/Documents/Calculating_tree_carbon.pdf
 - https://www.frontiersin.org/articles/10.3389/fevo.2016.00053/full
 - https://www.co2-acker.de/
 
-Difficulties when balancing CO<sub>2</sub> emissions:
+Difficulties when balancing CO~2~ emissions:
 - https://www.researchgate.net/publication/352705359_Nur_die_langfristige_CO2-Bindung_zahlt
 - https://www.frontiersin.org/articles/10.3389/fevo.2015.00144/full
