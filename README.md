@@ -1,16 +1,16 @@
-# Does the vegetation of a specific region suffice to compensate the CO2 emissions of this exact region?
+# Plants versus CO<sub>2</sub>
 
-<a href="https://github.com/fossgis2122/home/blob/e5aa74674c3a5d00ed566d79ccd8507bb6f41c33/docs/project_deliverables.md">Deliverables</a>
+<em>Does the vegetation of a specific region suffice to compensate the CO<sub>2</sub> emissions of this exact region?</em>
 
 ## General information
 
-For a specific point in time we would like to determine the vegetation areas in a region of interest (roi) and compare them with CO2 emission values to find out whether they are sufficient enough to compensate those emissions. The project should serve to correlate CO2 emissions of a roi with its vegetation areas and to be able to make statements about the climate balance. Through automation, different regions should be able to be examined easily. It should be pointed out that all values are estimated and not to be taken as scientifically proven.
+For a specific point in time we would like to determine the vegetation areas in a region of interest (roi) and compare them with CO<sub>2</sub> emission values to find out whether they are sufficient enough to compensate those emissions. The project should serve to correlate CO<sub>2</sub> emissions of a roi with its vegetation areas and to be able to make statements about the climate balance. Through automation, different regions should be able to be examined easily. It should be pointed out that all values are estimated and not to be taken as scientifically proven.
 
 ## Software requirements and Installation
 
-Programs:
-- QGIS Desktop 3.22 or newer
-- SAGA GIS 7.8.2 or newer
+Programs (we used):
+- QGIS Desktop 3.22
+- SAGA GIS 7.8.2
 > Both programs are included in the OSGeo4W-Package
 
 ### How to install
@@ -26,9 +26,9 @@ Programs:
 
 ## Required data
 
-- Multispectral raster data of Heidelberg: Sentinel 2 data (https://scihub.copernicus.eu/dhus/#/home), it's available free and has a resolution of 10m in the needed bands red, green, blue and NIR 
+- Multispectral raster data of Heidelberg: Sentinel 2 data (https://scihub.copernicus.eu/dhus/#/home), it's available free and has a resolution of 10m in the needed bands red and NIR 
 - Vector data of Heidelberg: GADM data by country (https://gadm.org/download_country.html), it's available free, is structured in different administrative levels and comes with interesting additional data
-- Emission (CO2) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
+- Emission (CO<sub>2</sub>) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
 - Sequestration ability of vegetation: values from literature 
 
 ### Aquisition of the required data
@@ -79,12 +79,12 @@ Programs:
 
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel and moving the map with left-click
-3. Hover over the region you want to see data from and you'll get a red value which shows the total CO2 emissions in tonnes for the year 2018
-4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the "project_data.zip" in the marked cell beneath "Emission value (t CO2/year)" (blue background). This will be a step at "Part 3: Calculations" (see below)
+3. Hover over the region you want to see data from and you'll get a red value which shows the total CO<sub>2</sub> emissions in tonnes for the year 2018
+4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the "project_data.zip" in the marked cell beneath "Emission value (t CO<sub>2</sub>/year)" (blue background). This will be a step at "Part 3: Calculations" (see below)
 
 </details>
 
-> Example data is provided through <a href="https://heibox.uni-heidelberg.de/d/b6f83521a8ec4ee5b2f6/">heiBOX</a>. The emission value for Heidelberg is 472.689 t CO2/year (2018).
+> Example data is provided through <a href="https://heibox.uni-heidelberg.de/d/b6f83521a8ec4ee5b2f6/">heiBOX</a>. The emission value for Heidelberg is 472.689 t CO<sub>2</sub>/year (2018).
 
 ## How to run
 
@@ -128,9 +128,9 @@ Programs:
 2. Copy the values from the third column (no title)
 3. Navigate to the project folder and open "Excelsheet.xls"
 4. Paste the values in the column "HERE (m²)" (blue background)
-5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO2/year)" (blue background) if you did not already
+5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO<sub>2</sub>/year)" (blue background) if you did not already
 6. All following values including the result should be automatically calculated
-7. The result is displayed through a color in the corresponding cells. It states whether the vegetation suffices to compensate the CO2 emissions of your roi or not
+7. The result is displayed through a color in the corresponding cells. It states whether the vegetation suffices to compensate the CO<sub>2</sub> emissions of your roi or not
 
 > **Congratulations, you completed this analysis!**
 
@@ -143,13 +143,13 @@ NDVI and classification of NDVI-values:
 - https://www.researchgate.net/publication/275030305_Evaluating_Multispectral_Images_and_Vegetation_Indices_for_Precision_Farming_Applications_from_UAV_Images
 - https://www.earthobservatory.nasa.gov/features/MeasuringVegetation
 
-Sequestration ability values/convert C in CO2 formula:
+Sequestration ability values/convert C in CO<sub>2</sub> formula:
 - https://www.researchgate.net/publication/261699371_Sequestration_and_Carbon_Storage_Potential_of_Tropical_Forest_Reserve_and_Tree_Species_Located_within_Benue_State_of_Nigeria
 - https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2011.02021.x
 - https://www.unm.edu/~jbrink/365/Documents/Calculating_tree_carbon.pdf
 - https://www.frontiersin.org/articles/10.3389/fevo.2016.00053/full
 - https://www.co2-acker.de/
 
-Difficulties when balancing CO2 emissions:
+Difficulties when balancing CO<sub>2</sub> emissions:
 - https://www.researchgate.net/publication/352705359_Nur_die_langfristige_CO2-Bindung_zahlt
 - https://www.frontiersin.org/articles/10.3389/fevo.2015.00144/full
