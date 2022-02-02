@@ -139,7 +139,7 @@ If not, feel free to choose any you like and install it accordingly.
 6. All following values including the result should be automatically calculated
 7. The result is displayed through a color in the corresponding cells. It states whether the vegetation suffices to compensate the CO<sub>2</sub> emissions of your roi or not
 
-#### Congratulations, you completed this analysis!
+### Congratulations, you completed this analysis!
 
 </details>
 
