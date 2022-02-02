@@ -24,12 +24,12 @@ Programs (we used):
 3. Select Advanced Install, click through the steps and keep the default values
 4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New". You can search for their names in the searchbar.
 5. Under the section "Desktop" choose:
-`qgis: QGIS Desktop (3.22)`
-`saga: SAGA (7.8.2-14)`
-`grass: GRASS GIS (7.8.6-8)`
+    `qgis: QGIS Desktop (3.22)`
+    `saga: SAGA (7.8.2-14)`
+    `grass: GRASS GIS (7.8.6-8)`
 6. Under the section "Libs" choose:
-    - qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1)
-    - Note: Additional packages which are needed to run the ones listed above will be selected automatically. Just keep those as well.
+    `qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1)`
+    > Note: Additional packages which are needed to run the ones listed above will be selected automatically. Just keep those as well.
 8. Complete the installation
 
 #### Spreadsheet:
