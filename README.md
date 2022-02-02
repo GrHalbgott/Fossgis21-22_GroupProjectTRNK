@@ -72,7 +72,7 @@ If not, feel free to choose any you like and install it accordingly.
 2. Log in on <a href="https://scihub.copernicus.eu/dhus/#/home">Copernicus Open Access Hub</a>. Without logging in you cannot download the required data
 3. Specify the search area in the map with right-click (move map with left-click and zoom in with mouse wheel)
 4. Click on the three stripes left of the search box to open the advanced search (upper left corner of screen)
-5. Select Sentinel 2 and put following statement in the box for the cloud cover: [0 TO 10]
+5. Select Sentinel 2 and put following statement in the box for the cloud cover: `[0 TO 10]`
 6. If you want to search for data in a specific time period, put the required dates in "sensing period" (we recommend using the year 2018 because the emission data is from this year only)
 7. Click on the search button (upper right of search box) and wait until the results are displayed
 8. Search for an image with full extent (no black parts) and minimal cloud cover
@@ -81,8 +81,8 @@ If not, feel free to choose any you like and install it accordingly.
 <br/><br/>
     > If the images you are looking for are offline, you can add them to your cart. Go to your cart (upper left next to the three stripes) and click on download (hover over entry and click on the download icon). It should say that downloading offline products is not possible. At this time, there should appear a clock icon next to the "Offline" text which says either "pending" or "running". Click on the same download button again and it should state that the offline product retrieval is initiated. At this point you did everything the right way. If you encouter problems try again following this manual. <br/>
     > After a while (up to one hour) the datasets will be available to download for three days. Proceed to the next steps to download the data:
-11. In the Inspector, navigate to GRANULE/*Name of data*/IMG_DATA/R10m/ and download the two files "...B04..." & "...B08..." (both .jp2)
-12. When downloaded, put the two files in the "./data" folder
+11. In the Inspector, navigate to `GRANULE/*Name of data*/IMG_DATA/R10m/` and download the two files "...B04..." & "...B08..." (both .jp2)
+12. When downloaded, put the two files in the `./data` folder
 </details>
 
 <details>
@@ -92,7 +92,7 @@ If not, feel free to choose any you like and install it accordingly.
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel and moving the map with left-click
 3. Hover over the region you want to see data from and you'll get a red value which shows the total CO<sub>2</sub> emissions in tonnes for the year 2018
-4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the "project_data.zip" in the marked cell beneath "Emission value (t CO<sub>2</sub>/year)" (blue background). This will be a step at "Part 2: Calculations" (see below) as well
+4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the `project_data.zip` in the marked cell beneath `Emission value (t CO<sub>2</sub>/year)` (blue background). This will be a step at "Part 2: Calculations" (see below) as well
 
 </details>
 
@@ -104,14 +104,14 @@ If not, feel free to choose any you like and install it accordingly.
    <summary><b>Part 1: QGIS Model</b></summary>
 <br/>
 
-1. Open QGIS, navigate to the project folder and double-click on the model "QGIS_Model" to run it
+1. Open QGIS, navigate to the `project folder` and double-click on the model "QGIS_Model" to run it
 3. Put in all required data:
     - Column name depends on the admin level of your roi. Every country has different admin levels and so you have to specify which column of the according shapefile (gadm) you want to use to search for your roi. For cities in Germany, leave the default setting [^1]
     - CRS: specify in which ccordinate reference system you want to project your data. For analyses in Germany, leave the default setting
-    - The color definition file is "colors.txt" in your "./data" folder [^1]
+    - The color definition file is "colors.txt" in your `./data` folder [^1]
     - GADM shapefile is the .shp-file in your gadm folder with the according number as specified under "Column name" [^1]
     - Name of your roi is the region you want to analyse. Any name of a city or town should work, as long as you specify the right admin level. It has to be in the extent of the Sentinel 2 raster images!
-    - The raster bands are the two from the "./data" folder with "B04" and "B08" in their names (the right order is very important!)
+    - The raster bands are the two from the `./data` folder with "B04" and "B08" in their names (the right order is very important!)
     - Reclassification matrix is the table with information on how the tool shall reclassify [^1] - leave the default setting
     - The next two parts are the outputs: it's not important where the output files are exported to, you just should find them easily afterwards (we recommend using the project data folder and naming both output or results)
 4. Uncheck both check boxes
@@ -131,8 +131,8 @@ If not, feel free to choose any you like and install it accordingly.
 1. Open the Excel file you got from the model as output 
 2. Copy the values from the third column (no title)
 3. Navigate to the project folder and open "Excelsheet.xls"
-4. Paste the values in the column "HERE (m²)" (blue background)
-5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO<sub>2</sub>/year)" (blue background) if you did not already
+4. Paste the values in the column `HERE (m²)` (blue background)
+5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under `Emission value (t CO<sub>2</sub>/year)` (blue background) if you did not already
 6. All following values including the result should be automatically calculated
 7. The result is displayed through a color in the corresponding cells. It states whether the vegetation suffices to compensate the CO<sub>2</sub> emissions of your roi or not
 
