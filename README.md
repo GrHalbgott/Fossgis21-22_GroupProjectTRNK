@@ -1,6 +1,6 @@
 # Plants versus CO<sub>2</sub>
 
-<em>Does the vegetation of a specific region suffice to compensate the CO<sub>2</sub> emissions of this exact region?</em>
+<em>**Does the vegetation of a specific region suffice to compensate the CO<sub>2</sub> emissions of this exact region?**</em>
 
 ## General information
 
@@ -12,9 +12,12 @@ Programs (we used):
 - QGIS Desktop 3.22
 - SAGA GIS 7.8.2
 > Both programs are included in the OSGeo4W-Package
+- Microsoft Excel (any Spreadsheet with basic calculation tools will do)
+
 
 ### How to install
 
+#### GIS:
 1. Download the OSGeo4W Installer from <a href="http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe">here</a> (official link to the current network-installer)
 2. Run the installer
 3. Select Advanced Install, click through the steps and keep the default values
@@ -23,6 +26,10 @@ Programs (we used):
     - saga: SAGA (7.8.2-12)
     - Note: Additional packages will be selected automatically which are needed to run the ones listed above. So just keep those as well.
 5. Complete the installation
+
+#### Spreadsheet:
+You should already have a Spreadsheet program installed. 
+If not, feel free to choose any you like and install it accordingly.
 
 ## Required data
 
@@ -80,7 +87,7 @@ Programs (we used):
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel and moving the map with left-click
 3. Hover over the region you want to see data from and you'll get a red value which shows the total CO<sub>2</sub> emissions in tonnes for the year 2018
-4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the "project_data.zip" in the marked cell beneath "Emission value (t CO<sub>2</sub>/year)" (blue background). This will be a step at "Part 3: Calculations" (see below)
+4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the "project_data.zip" in the marked cell beneath "Emission value (t CO<sub>2</sub>/year)" (blue background). This will be a step at "Part 3: Calculations" (see below) as well
 
 </details>
 
@@ -107,7 +114,7 @@ Programs (we used):
 3. Put in all required data:
     - CRS: leave the default setting (we recommend using EPSG:25832 for Germany)
     - the color definition file is "colors.txt" in your "./data" folder
-    - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names
+    - the raster bands are the two from the "./data" folder with "B04" and "B08" in their names (the right order is very important!)
     - the vector data input "roi" is the output from the script "roi_extractor.bat", so it should be the shapefile in the "./data" folder named as your input for your roi
     - it's not important where the output files are exported to, you just should find them easily afterwards
 4. Uncheck both check boxes
