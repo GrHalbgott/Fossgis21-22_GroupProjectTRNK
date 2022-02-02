@@ -106,13 +106,13 @@ If not, feel free to choose any you like and install it accordingly.
 
 1. Open QGIS, navigate to the `project folder` and double-click on the model "QGIS_Model" to run it
 3. Put in all required data:
-    - Column name depends on the admin level of your roi. Every country has different admin levels and so you have to specify which column of the according shapefile (gadm) you want to use to search for your roi. For cities in Germany, leave the default setting [note](#note)
+    - Column name depends on the admin level of your roi. Every country has different admin levels and so you have to specify which column of the according shapefile (gadm) you want to use to search for your roi. For cities in Germany, leave the default setting ([note](#foot))
     - CRS: specify in which ccordinate reference system you want to project your data. For analyses in Germany, leave the default setting
-    - The color definition file is "colors.txt" in your `./data` folder [note](#note)
-    - GADM shapefile is the .shp-file in your gadm folder with the according number as specified under "Column name" [note](#note)
+    - The color definition file is "colors.txt" in your `./data` folder ([note](#foot))
+    - GADM shapefile is the .shp-file in your gadm folder with the according number as specified under "Column name" ([note](#foot))
     - Name of your roi is the region you want to analyse. Any name of a city or town should work, as long as you specify the right admin level. It has to be in the extent of the Sentinel 2 raster images!
     - The raster bands are the two from the `./data` folder with "B04" and "B08" in their names (the right order is very important!)
-    - Reclassification matrix is the table with information on how the tool shall reclassify [note](#note) - leave the default setting
+    - Reclassification matrix is the table with information on how the tool shall reclassify ([note](#foot)) - leave the default setting
     - The next two parts are the outputs: it's not important where the output files are exported to, you just should find them easily afterwards (we recommend using the project data folder and naming both output or results)
 4. Uncheck both check boxes
 5. Run the model
