@@ -108,21 +108,21 @@ If not, feel free to choose any you like and install it accordingly.
 
 1. Open QGIS, navigate to the `project folder` and double-click on the model "QGIS_Model" to run it
 3. Put in all required data:
-    - Column name depends on the admin level of your roi. Every country has different admin levels and so you have to specify which column of the according shapefile (gadm) you want to use to search for your roi. For cities in Germany, leave the default setting (more info under <a href="Additional info/specifics.md">specifics - region of interest</a>)
+    - Column name depends on the admin level of your roi. Every country has different admin levels and so you have to specify which column of the according shapefile (gadm) you want to use to search for your roi. For cities in Germany, leave the default setting (more info under <a href="Examples and help/specifics.md">specifics - region of interest</a>)
     - CRS: specify in which ccordinate reference system you want to project your data. For analyses in Germany, leave the default setting
-    - The color definition file is "colors.txt" in your `./data` folder (more info under <a href="Additional info/specifics.md">specifics - coloring</a>)
-    - GADM shapefile is the .shp-file in your gadm folder with the according number as specified under "Column name" (more info under <a href="Additional info/specifics.md">specifics - reigon of interest</a>)
+    - The color definition file is "colors.txt" in your `./data` folder (more info under <a href="AExamples and help/specifics.md">specifics - coloring</a>)
+    - GADM shapefile is the .shp-file in your gadm folder with the according number as specified under "Column name" (more info under <a href="Examples and help/specifics.md">specifics - reigon of interest</a>)
     - Name of your roi is the region you want to analyse. Any name of a city or town should work, as long as you specify the right admin level. It has to be in the extent of the Sentinel 2 raster images!
     - The raster bands are the two from the `./data` folder with "B04" and "B08" in their names (the right order is very important!)
-    - Reclassification matrix is the table with information on how the tool shall reclassify (more info under <a href="Additional info/specifics.md">specifics - reclassification</a>) - leave the default setting
+    - Reclassification matrix is the table with information on how the tool shall reclassify (more info under <a href="Examples and help/specifics.md">specifics - reclassification</a>) - leave the default setting
     - The next two parts are the outputs: it's not important where the output files are exported to, you just should find them easily afterwards (we recommend using the project data folder and naming both output or results)
 4. Uncheck both check boxes
 5. Run the model
 6. It outputs one image and one Excel file at the locations you specified as output folders
 <br/><br/>
-    > If you need help with running the model, check this <a href="Examples and help/Walkthrough - model.mp4">walkthrough</a> of its execution or look under <a href="Additional info/specifics.md">specifics</a>
+    > If you need help with running the model, check this <a href="Examples and help/Walkthrough - model.mp4">walkthrough</a> of its execution or look under <a href="Examples and help/specifics.md">specifics</a>
 7. Take a look at the image and compare it to <a href="Examples and help/NDVI colored.png">NDVI colored.png</a> - does it makes sense? You should see your roi colored from red to green on a white background
-8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model! Additional help can be found under <a href="Additional info/specifics.md">specifics</a>. If you cannot resolve the problem yourself feel free to ask questions in the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository
+8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model! Additional help can be found under <a href="Examples and help/specifics.md">specifics</a>. If you cannot resolve the problem yourself feel free to ask questions in the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository
 
 </details>
 
@@ -146,7 +146,7 @@ If not, feel free to choose any you like and install it accordingly.
 
 ### *Footnote:*
 
-For further information on the model and the specific calculations you can look into <a href="Additional info/specifics.md">specifics.md</a>. If you have any questions feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository to get in touch with us. We are looking forward to your ideas!
+For further information on the model and the specific calculations you can look into <a href="Examples and help/specifics.md">specifics.md</a>. If you have any questions feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository to get in touch with us. We are looking forward to your ideas!
 
 ahsdiuas
 
