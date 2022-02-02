@@ -20,11 +20,11 @@ Input values are the frequency of pixels in a class (like "class 3 = 600.000" me
   <summary>Reclassification matrix</summary>
 <br/>
 
-|value range|class|means|
+|Value range|ASsigned class|In reality|
 |-----|-----|-----|
 |-9999 - 0.2|1|no vegetation|
-|0.2 - 0.4 | 1|low level of vegetation (shrub/grass)|
-|0.4 - 0.6 | 1|medium level of vegetation (crops)|
-|0.6 - 1 | 1|high level of vegetation (forest)|
+|0.2 - 0.4 |2|low level of vegetation (shrub/grass)|
+|0.4 - 0.6 |3|medium level of vegetation (crops)|
+|0.6 - 1 |4|high level of vegetation (forest)|
 
 </details>
