@@ -45,7 +45,7 @@ If not, feel free to choose any you like and install it accordingly.
 
 ### Aquisition of the required data
 
-> First step: download the file "project_data.zip" and extract the files into a folder (choose a name). This is called the "project folder" in the following steps. The folder "data" in it is referred to as "./data". <br/>
+> First step: download the file `project_data.zip` and extract the files into a folder (choose a name). This is called the `project folder` in the following steps. The folder `data` in it is referred to as `./data`. <br/>
 > Take a look at <a href="Examples and help/Data structure.png">Data structure.png</a> for reference:
 
 <details>
@@ -60,7 +60,7 @@ If not, feel free to choose any you like and install it accordingly.
 <br/>
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select any country you want and download the Shapefile
-2. When downloaded, unzip the ZIP-file into a folder (e.g. gadm36_DEU for Germany) and move the whole folder to the folder "./data"
+2. When downloaded, unzip the ZIP-file into a folder (e.g. `gadm36_DEU` for Germany) and move the whole folder to the folder `./data`
 
 </details>    
     
