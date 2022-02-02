@@ -1,6 +1,6 @@
 # Plants versus CO<sub>2</sub>
 
-### Does the vegetation of a specific region suffice to compensate the CO<sub>2</sub> emissions of this exact region?
+### *Does the vegetation of a specific region suffice to compensate the CO<sub>2</sub> emissions of this exact region?*
 
 ## General information
 
