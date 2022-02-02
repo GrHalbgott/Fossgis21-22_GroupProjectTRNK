@@ -27,7 +27,7 @@ Input values are the frequency of pixels in a class (like "class 3 = 600.000" me
 |0.4 - 0.6 |3|medium level of vegetation (crops)|
 |0.6 - 1 |4|high level of vegetation (forest)|
 
-Note: we include values from -1.1, because there are some error values slightly smaller than -1 which we want to include in class 1. Furtermore we want to leave the NoDate value of -9999 as it is and not include it, because the coloring works with this value as well (take a look at the coloring chapter).
+Note: we include values from -1.1, because there are some error values slightly smaller than -1 which we want to include in class 1. Furthermore we want to leave the NoDate value of -9999 as it is and not include it, because the coloring works with this value as well (take a look at the coloring chapter).
   
 </details>
 
@@ -42,6 +42,20 @@ This is the content of the color definition file:
 2 255 255 120 100
 4 26 150 65 100
 
-It is structured as "value (of class), red, green, blue, hue". The NoData value (-9999) is included to always paint te background white.
+It is usually structured as "elevation (value), red, green, blue, alpha". The NoData value (-9999) is included to always paint the background white.
+We use the color-relief for coloring classes instead (which have specific values).
+The option "use smoothly blended colors" enables interpolation of colors between the specified values/classes - if you have more classes, this looks way better. In our case it's not important, but we include it anyways just to have it in case.
+  
+</details>
+
+<details>
+  <summary>Region of interest</summary>
+<br/>
+
+If you have problems with extracting your roi from the shapefiles one possible solution could be to change some options in the model:
+  
+1. Take a look at the shapefiles in your folder from <a href="gadm.org/country">gadm.org</a>. There are different administrative levels and they are different in every country. The highest number usually has the lowest admin level (like towns).
+2. If you want to extract a roi from one of the shapefiles, you have to look which shapefile you would need. A city in Germany for example can be found in level 3, a town in level 4 and a Landkreis also in level 3. So it strongly depends on the admin level which shapefile you would need.
+3. If you know which shapefile you need and it is not level 3, you have to change some options in the model:
   
 </details>
