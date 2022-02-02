@@ -46,12 +46,12 @@ If not, feel free to choose any you like and install it accordingly.
 ### Aquisition of the required data
 
 > First step: download the file "project_data.zip" and extract the files into a folder (choose a name). This is called the "project folder" in the following steps. The folder "data" in it is referred to as "./data". <br/>
-> Take a look at <a href="Examples and help/data_structure.png">data_structure.png</a> for reference:
+> Take a look at <a href="Examples and help/Data structure.png">Data structure.png</a> for reference:
 
 <details>
-   <summary><b>data_structure.png</b></summary>
+   <summary><b>Data structure.png</b></summary>
 <br/>
-  <img src="Examples and help/data_structure.png"></img>
+  <img src="Examples and help/Data structure.png"></img>
   
 </details>  
 
