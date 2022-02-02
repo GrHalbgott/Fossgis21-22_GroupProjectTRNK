@@ -37,12 +37,14 @@ Note: we include values from -1.1, because there are some error values slightly 
 
 This is the content of the color definition file:
 
+```
 {
 -9999 255 255 255 0 <br/>
 1 215 25 28 100 <br/>
 2 255 255 120 100 <br/>
 4 26 150 65 100 <br/>
 }
+```
 
 It is usually structured as "elevation (value), red, green, blue, alpha" because it is used to color digital elevation models. We use the color-relief for coloring classes instead (which have specific values). The NoData value (-9999) is additionally included to always paint the background white (looks nicer and helps checking if everything went right).
 The option "use smoothly blended colors" enables interpolation of colors between the specified values/classes - if you have more classes, this looks way better. In our case it's not important, but we include it anyways just to have it in case.
