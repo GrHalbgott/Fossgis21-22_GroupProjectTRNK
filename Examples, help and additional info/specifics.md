@@ -55,8 +55,8 @@ The option "use smoothly blended colors" enables interpolation of colors between
   <summary>Sentinel 2 data offline</summary>
 <br/>
   
-If the images you are looking for are offline, you can add them to your cart. Go to your cart (upper left next to the three stripes) and click on download (hover over entry and click on the download icon). It should say that downloading offline products is not possible. At this time, there should appear a clock icon next to the "Offline" text which says either "pending" or "running". Click on the same download button again and it should state that the offline product retrieval is initiated. At this point you did everything the right way. If you encouter problems try again following this manual in the <a href="readme.md">ReadMe</a>
-After a while (up to one hour) the datasets will be available to download for three days. Proceed to the next steps to download the data.
+If the images you are looking for are offline, you can add them to your cart. Go to your cart (upper left next to the three stripes) and click on download (hover over entry and click on the download icon). It should say that downloading offline products is not possible. At this time, there should appear a clock icon next to the "Offline" text which says either "pending" or "running". Click on the same download button again and it should state that the offline product retrieval is initiated. At this point you did everything the right way. If you encouter problems try again following the manual in the ReadMe or use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section to ask us for aid wth aquiring the data.
+After a while (up to one hour) the datasets will be available to download for three consecutive days. Proceed to the next steps in the ReadMe to download finally the data.
 
 </details>
 
