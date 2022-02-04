@@ -1,6 +1,6 @@
 # Troubleshooting
 
-In this file we want to give you some help on troubleshooting. Some problems will be more common than others, so before you despair and try too long on your own, please use the  <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository so we can try to help you. Maybe others even had the same problems and got an answer already?
+In this file we want to give you some help to troubleshoot problems on your own. Some problems will be more common than others, so before you despair and try too long on your own, please use the  <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository so we can try to help you. Maybe others even had the same problems and got an answer already?
 
 <details>
   <summary>Sentinel 2 data offline</summary>
