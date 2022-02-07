@@ -38,8 +38,8 @@ Programs (we used):
 
 #### GIS (iOS/Linux) will follow soon
 
-#### Spreadsheet (Windows/iOS/Linux:
-You should already have a Spreadsheet program installed. 
+#### Spreadsheet (Windows/iOS/Linux):
+You should already have a spreadsheet program installed. 
 If not, feel free to choose whichever you like and install it accordingly.
 
 ## Required data
