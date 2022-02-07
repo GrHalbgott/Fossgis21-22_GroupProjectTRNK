@@ -33,7 +33,7 @@ Programs (we used):
 ```
     qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1)
 ```
-    > Note: Additional packages which are needed to run the ones listed above will be selected automatically. Just keep those as well.
+> Note: Additional packages which are needed to run the ones listed above will be selected automatically. Just keep those as well.
 8. Complete the installation
 
 #### GIS (iOS/Linux) will follow soon
