@@ -18,7 +18,7 @@ Programs (we used):
 
 ### How to install
 
-#### GIS:
+#### GIS (Windows):
 1. Download the OSGeo4W Installer from <a href="http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe">here</a> (official link to the current network-installer)
 2. Run the installer
 3. Select Advanced Install, click through the steps and keep the default values
@@ -30,13 +30,17 @@ Programs (we used):
     grass: GRASS GIS (7.8.6-8)
 ```
 6. Under the section "Libs" choose:
-    `qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1)`
+```
+    qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1)
+```
     > Note: Additional packages which are needed to run the ones listed above will be selected automatically. Just keep those as well.
 8. Complete the installation
 
-#### Spreadsheet:
+#### GIS (iOS/Linux) will follow soon
+
+#### Spreadsheet (Windows/iOS/Linux:
 You should already have a Spreadsheet program installed. 
-If not, feel free to choose any you like and install it accordingly.
+If not, feel free to choose whichever you like and install it accordingly.
 
 ## Required data
 
@@ -126,12 +130,12 @@ If not, feel free to choose any you like and install it accordingly.
 </details>
 
 <details>
-   <summary><b>Part 2: Calculations in Excel</b></summary>
+   <summary><b>Part 2: Calculations in Spreadsheet</b></summary>
 <br/>
 
-1. Open the Excel file you got from the model as output 
+1. Open the spreadsheet file you got from the model as output 
 2. Copy the values from the third column (no title)
-3. Navigate to the project folder and open "Excelsheet.xls"
+3. Navigate to the project folder and open "Spreadsheet.xls"
 4. Paste the values in the column "HERE (m²)" (blue background)
 5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO<sub>2</sub>/year)" (blue background) if you did not already
 6. All following values including the result should be automatically calculated
