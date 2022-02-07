@@ -130,12 +130,12 @@ If not, feel free to choose whichever you like and install it accordingly.
 </details>
 
 <details>
-   <summary><b>Part 2: Calculations in Spreadsheet</b></summary>
+   <summary><b>Part 2: Calculations in Excel</b></summary>
 <br/>
 
 1. Open the spreadsheet file you got from the model as output 
 2. Copy the values from the third column (no title)
-3. Navigate to the project folder and open "Spreadsheet.xls"
+3. Navigate to the project folder and open "Excelsheet.xls"
 4. Paste the values in the column "HERE (m²)" (blue background)
 5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO<sub>2</sub>/year)" (blue background) if you did not already
 6. All following values including the result should be automatically calculated
