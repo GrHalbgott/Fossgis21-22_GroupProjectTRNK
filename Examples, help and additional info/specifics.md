@@ -12,7 +12,7 @@
   <summary>Calculations in Excel</summary>
 <br/>
   
-Input values are the frequency of pixels in a class (like "class 3 = 600.000" means that there are as many pixels having a value inside this class). Because of the homegenic spatial resolution of Sentinel 2 each pixel is 10x10m in size, therefore if you multiply the frequency with 10 you get m<sup>2</sup>. Divide that number by 10.000 and you get hectares, which is better to calculate the sequestration ability with.
+Input values are the frequency of pixels in a class (like "class 3 = 600.000" means that there are this many pixels having a value inside this class). Because of the homegenic spatial resolution of Sentinel 2 each pixel is 10x10m in size, therefore if you multiply the frequency with 10 you get m<sup>2</sup>. Divide that number by 10.000 and you get hectares, which is better to calculate the sequestration ability with.
 
 </details>
 
@@ -27,7 +27,7 @@ Input values are the frequency of pixels in a class (like "class 3 = 600.000" me
 | 0.4 - 0.6 | 3 | medium level of vegetation (crops) |
 | 0.6 - 1 | 4 | high level of vegetation (forest) |
 
-Note: we include values from -1.1, because there are some error values slightly smaller than -1 which we want to include in class 1. Furthermore we want to leave the NoDate value of -9999 as it is and not include it, because the coloring works with this value as well (take a look at the coloring chapter).
+Note: we include values from -1.1, because there are some error values slightly smaller than -1 which we want to include in class 1. Furthermore we want to leave the NoData value of -9999 as it is and not include it, because the coloring works with this value as well (take a look at the coloring chapter).
   
 </details>
 
