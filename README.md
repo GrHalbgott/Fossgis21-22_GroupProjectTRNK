@@ -147,7 +147,7 @@ If not, feel free to choose whichever you like and install it accordingly.
 
 ### *Footnote:*
 
-For further information on the model and the specific calculations you can look into <a href="Examples, help and additional info/specifics.md">specifics</a>. If you have any questions, feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository to get in touch with us. If you encounter a specific problem, feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/issues">Issues</a> section. We are looking forward to your ideas and input!
+For further information on the model and the specific calculations you can look into <a href="Examples, help and additional info/specifics.md">specifics</a>. If you have any questions or encounter a specific problem, feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/issues">Issues</a> section of this repository to get in touch with us. We are looking forward to your ideas and input!
 
 ---
 
