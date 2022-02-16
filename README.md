@@ -125,7 +125,7 @@ If not, feel free to choose whichever you like and install it accordingly.
 <br/><br/>
     > If you need help with running the model, check the files inside the folder <a href="Examples, help and additional info/">Examples, help and additional info</a> 
 7. Take a look at the image and compare it to <a href="Examples, help and additional info/NDVI colored.png">NDVI colored</a> - does it makes sense? You should see your roi colored from red to green on a white background
-8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model! Additional help can be found under <a href="Examples, help and additional info/">Examples, help and additional info</a>. If you cannot resolve the problem yourself feel free to ask questions in the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository
+8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model! Additional help can be found under <a href="Examples, help and additional info/">Examples, help and additional info</a>. If you cannot resolve the problem yourself feel free to ask questions in the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/issues">Issues</a> section of this repository
 
 </details>
 
@@ -147,7 +147,7 @@ If not, feel free to choose whichever you like and install it accordingly.
 
 ### *Footnote:*
 
-For further information on the model and the specific calculations you can look into <a href="Examples, help and additional info/specifics.md">specifics</a>. If you have any questions feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository to get in touch with us. We are looking forward to your ideas!
+For further information on the model and the specific calculations you can look into <a href="Examples, help and additional info/specifics.md">specifics</a>. If you have any questions, feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/discussions">Discussions</a> section of this repository to get in touch with us. If you encounter a specific problem, feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/issues">Issues</a> section. We are looking forward to your ideas and input!
 
 ---
 
