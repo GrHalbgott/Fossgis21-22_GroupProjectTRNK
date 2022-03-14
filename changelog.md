@@ -10,12 +10,12 @@ Minor changes:
 - Added a new comment to the QGIS RC
 - Changed the position and size of some elements
 
-## Version 1.2.1
+### Version 1.2.1
 
 Minor changes:
 - Added some comments to the RCs to visualize some differences
 
-## Version 1.2.0
+### Version 1.2.0
 
 Major changes:
 - Changed the SAGA RC to the QGIS RC
