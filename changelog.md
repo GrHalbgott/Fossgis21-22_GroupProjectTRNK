@@ -1,4 +1,4 @@
-Changelog for the QGIS model 
+# Changelog for the QGIS model 
 
 ## Version 1.0.1
 - Changed the Raster Calculator to SAGA RC and deactivated the QGIS RC.
