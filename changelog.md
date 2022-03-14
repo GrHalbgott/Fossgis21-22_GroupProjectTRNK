@@ -52,6 +52,6 @@ Minor changes:
 - Changed some descriptions
 - Changed the position of some elements
 
-## Version 1.0.0 (Release)
+## Version 1.0 (Release)
 
 - Upload of the first fully functional version of the QGIS model!
