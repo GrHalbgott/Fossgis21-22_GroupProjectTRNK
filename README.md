@@ -12,7 +12,7 @@ Programs (we used):
 - QGIS Desktop 3.22
 - with the following Plugins:
     - SAGA 7.8.2-14
-    - GRASS GIS 7.8.6-7
+    - GRASS GIS 7.8.6-7 [optional for comparison]
 > Those programs and plugins are all are included in the OSGeo4W-Package
 - Microsoft Excel (any Spreadsheet with basic calculation tools will do)
 
@@ -27,11 +27,11 @@ Programs (we used):
 ```
     qgis: QGIS Desktop (3.22)
     saga: SAGA (7.8.2-14)
-    grass: GRASS GIS (7.8.6-8)
+    grass: GRASS GIS (7.8.6-8) [optional]
 ```
 6. Under the section "Libs" choose:
 ```
-    qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1)
+    qgis-grass-plugin: GRASS plugin for QGIS (3.22.3-1) [optional] 
 ```
 > Note: Additional packages which are needed to run the ones listed above will be selected automatically. Just keep those as well.
 8. Complete the installation
