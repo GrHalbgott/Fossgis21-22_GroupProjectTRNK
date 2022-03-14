@@ -1,6 +1,6 @@
 # Changelog for the QGIS model 
 
-## Version 1.3.0 (Major update)
+## Version 1.3 (Major update)
 
 Major changes:
 - Added a new preprocessing step: reprojection (warp) of the raster data so the model adapts to your needs even more
@@ -15,7 +15,7 @@ Minor changes:
 Minor changes:
 - Added some comments to the RCs to visualize differences
 
-## Version 1.2.0 (Major update)
+## Version 1.2 (Major update)
 
 Major changes:
 - Changed the SAGA RC to the QGIS RC
@@ -32,7 +32,7 @@ Minor changes:
 - Put the prestep into the box "Input"
 - Changed the position of some elements
 
-## Version 1.1.0 (Major update)
+## Version 1.1 (Major update)
 
 Major changes:
 - Transformed the roi_extractor.bat into a new prestep of the model (you don't need to use the OSGeo4W-Shell beforehand anymore yay! Also we can delete a bat-file)
