@@ -66,7 +66,7 @@ If not, feel free to choose whichever you like and install it accordingly.
 <br/>
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select any country you want and download the Shapefile
-2. When downloaded, unzip the ZIP-file into a folder (e.g. `gadm36_DEU` for Germany) and move the whole folder to the folder `./data`
+2. When downloaded, unzip the ZIP-file into a folder (e.g. `gadm40_DEU` for Germany) and move the whole folder to the folder `./data`
 
 </details>    
     
@@ -85,7 +85,7 @@ If not, feel free to choose whichever you like and install it accordingly.
 9. Hover over the entry and click on the eye icon ("View product details") which appears along with other icons on the lower right side of the entry
 10. Check in the quick look window if the data seems suitable
 <br/><br/>
-    > If the images you are looking for are offline, take a look at <a href="Examples, help and additional info/troubleshooting.md">troubleshooting</a> for some help on that problem.
+    > If the images you are looking for are offline, take a look at <a href="https://github.com/GrHalbgott/Plants-vs-CO2/wiki/Troubleshooting">troubleshooting - Sentinel 2 data offline</a> for some help on that problem.
 11. In the Inspector, navigate to `GRANULE/*Name of data*/IMG_DATA/R10m/` and download the two files "...B04..." & "...B08..." (both .jp2)
 12. When downloaded, put the two files in the `./data` folder
 </details>
@@ -111,10 +111,10 @@ If not, feel free to choose whichever you like and install it accordingly.
 
 1. Open QGIS, navigate to the `project folder` and double-click on the model "QGIS_Model" to run it
 3. Put in all required data:
-    - Column name depends on the admin level of your roi. Every country has different admin levels and so you have to specify which column of the according shapefile (gadm) you want to use to search for your roi. For cities in Germany, leave the default setting (more info under <a href="Examples, help and additional info/troubleshooting.md">troubleshooting</a>)
+    - Column name depends on the admin level of your roi. Every country has different admin levels and so you have to specify which column of the according shapefile (gadm) you want to use to search for your roi. For cities in Germany, leave the default setting (more info under <a href="https://github.com/GrHalbgott/Plants-vs-CO2/wiki/Troubleshooting">troubleshooting - extracting the roi</a>)
     - CRS: specify in which ccordinate reference system you want to project your data. For analyses in Germany, leave the default setting
     - The color definition file is "colors.txt" in your `./data` folder (more info under <a href="https://github.com/GrHalbgott/Plants-vs-CO2/wiki/Specifics">specifics - coloring</a>)
-    - GADM shapefile is the .shp-file in your gadm folder with the according number as specified under "Column name" (more info under <a href="Examples, help and additional info/specifics.md">specifics - reigon of interest</a>)
+    - GADM shapefile is the .shp-file in your gadm folder with the according number as specified under "Column name" (more info under <a href="https://github.com/GrHalbgott/Plants-vs-CO2/wiki/Specifics">specifics - reigon of interest</a>)
     - Name of your roi is the region you want to analyse. Any name of a city or town should work, as long as you specify the right admin level. It has to be in the extent of the Sentinel 2 raster images!
     - The raster bands are the two from the `./data` folder with "B04" and "B08" in their names (the right order is very important!)
     - Reclassification matrix is the table with information on how the tool shall reclassify (more info under <a href="https://github.com/GrHalbgott/Plants-vs-CO2/wiki/Specifics">specifics - reclassification</a>) - leave the default setting
@@ -125,7 +125,7 @@ If not, feel free to choose whichever you like and install it accordingly.
 <br/><br/>
     > If you need help with running the model, check the files inside the folder <a href="Examples, help and additional info/">Examples, help and additional info</a> 
 7. Take a look at the image and compare it to <a href="Examples, help and additional info/NDVI colored.png">NDVI colored</a> - does it makes sense? You should see your roi colored from red to green on a white background
-8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model! Additional help can be found under <a href="Examples, help and additional info/">Examples, help and additional info</a>. If you cannot resolve the problem yourself feel free to ask questions in the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/issues">Issues</a> section of this repository
+8. Proceed if it looks fine, repeat the steps if something seems wrong. Remember to check your input values in the model! Additional help can be found in our <a href="https://github.com/GrHalbgott/Plants-vs-CO2/wiki/">wiki</a>. If you cannot resolve the problem yourself feel free to ask questions in the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/issues">Issues</a> section of this repository
 
 </details>
 
