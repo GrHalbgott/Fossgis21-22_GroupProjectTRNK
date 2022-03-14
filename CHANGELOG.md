@@ -45,8 +45,8 @@ Minor changes in the model:
 ## Version 1.1 (Major update)
 
 Major changes in the model:
-- Transformed the roi_extractor.bat into a new prestep of the model (you don't need to use the OSGeo4W-Shell beforehand anymore yay! Also we can delete a bat-file)
-- Added a matrix for the reclassification rules (so we can delete one txt-file)
+- Transformed the roi_extractor.bat into a new prestep of the model (you don't need to use the OSGeo4W-Shell beforehand anymore yay! Also we can delete the bat-file)
+- Added a matrix for the reclassification rules so you can change the classes on the fly (isn't recommended -> Spreadsheet)
 
 Minor changes in the model:
 - Added some descriptions to the prestep
@@ -70,5 +70,4 @@ Minor changes in the model:
 
 ## Version 1.0 (Release)
 
-- Upload of the first fully functional version of the QGIS model!
-- Upload of the first fully functional version of the Excelfile!
+- Upload of the first fully functional version of the project including the QGIS model, the Excelfile, the color definition file and the region_extractor.bat!
