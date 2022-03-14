@@ -8,7 +8,7 @@ For a specific point in time we would like to determine the vegetation areas in 
 
 ## Software requirements and Installation
 
-Programs (we used):
+### Programs (we used):
 - QGIS Desktop 3.22
 - with the following Plugins:
     - SAGA 7.8.2-14
