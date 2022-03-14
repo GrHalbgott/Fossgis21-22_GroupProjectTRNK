@@ -1,10 +1,23 @@
 # Changelog of the project data folder
 
+14.03.2022 v1.3.1 (?)
+02.02.2022 v1.3 (?)
+01.02.2022
+29.01.2022
+28.01.2022
+26.01.2022 v1.0.0
+
+## Version 1.3.1 (Hotfix)
+
+Minor changes in the model:
+- Changed the Raster Calculator back to SAGA RC and deactivated the QGIS RC (wasn't reliable - thanks for the info in the issues)
+- Added a new comment to the QGIS RC
+- Changed the position and size of some elements
+
 ## Version 1.3 (Major update)
 
 Major changes in the model:
 - Added a new preprocessing step: reprojection (warp) of the raster data so the model adapts to your needs even more
-- Changed the Raster Calculator back to SAGA RC and deactivated the QGIS RC (wasn't reliable - thanks for the info in the issues)
 
 Minor changes in the model:
 - Added a new comment to the QGIS RC
