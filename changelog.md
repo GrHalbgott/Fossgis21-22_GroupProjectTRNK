@@ -13,7 +13,7 @@ Minor changes:
 ## Version 1.2.1 (Hotfix)
 
 Minor changes:
-- Added some comments to the RCs to visualize some differences
+- Added some comments to the RCs to visualize differences
 
 ## Version 1.2.0 (Major update)
 
