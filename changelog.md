@@ -14,6 +14,7 @@ Minor changes:
 
 Minor changes:
 - Added some comments to the RCs to visualize differences
+- Changed the position and size of some elements
 
 ## Version 1.2 (Major update)
 
