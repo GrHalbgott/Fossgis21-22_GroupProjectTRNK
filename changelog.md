@@ -10,12 +10,12 @@ Minor changes:
 - Added a new comment to the QGIS RC
 - Changed the position and size of some elements
 
-### Version 1.2.1
+## Version 1.2.1
 
 Minor changes:
 - Added some comments to the RCs to visualize some differences
 
-### Version 1.2.0
+## Version 1.2.0
 
 Major changes:
 - Changed the SAGA RC to the QGIS RC
@@ -26,7 +26,7 @@ Minor changes:
 - Changed the position and size of some elements
 - Changed the description of some elements
 
-### Version 1.1.1
+## Version 1.1.1
 
 Minor changes:
 - Put the prestep into the box "Input"
@@ -42,11 +42,11 @@ Additional minor changes:
 - Added some descriptions to the prestep
 - Changed the position and size of some elements to better implement the prestep
 
-### Version 1.0.2
+## Version 1.0.2
 
 - Added backgroud-boxes to clarify the different steps of the model (as mentioned in the presentation)
 
-### Version 1.0.1
+## Version 1.0.1
 
 Minor changes:
 - Changed some descriptions
