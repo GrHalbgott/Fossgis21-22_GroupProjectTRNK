@@ -153,17 +153,20 @@ For further information on the model and the specific calculations you can look 
 
 ## Literature:
 
-NDVI and classification of NDVI-values:
-- https://www.researchgate.net/publication/275030305_Evaluating_Multispectral_Images_and_Vegetation_Indices_for_Precision_Farming_Applications_from_UAV_Images
-- https://www.earthobservatory.nasa.gov/features/MeasuringVegetation
+Aryal, J./Sitaula, C./Aryal, S. (2022): NDVI Threshold-Based Urban Green Space Mapping from Sentinel-2A at the Local Governmental Area (LGA) Level of Victoria, Australia. - In: Land, 11:351, n.p.
+Candiago, S./Remondino, F./De Giglio, M./Dubbini. M./Gattelli, M.(2015): Evaluating Multispectral Images and Vegetation Indices for Precision Farming Applications from UAV Images. - In: Remote Sensing, 7, pp. 4026 - 4047. 
+Churkina, G. (2016): The Role of Urbanization in the Global Carbon Cycle. - In: Frontiers in Ecology and Evolution, 3:144, n.p. 
+Da Silva, V.S./Salami, G./Oliveira da Silva, M.I./Araujo Silva, E./Montiero, J.J./Alba, E. (2020): Methodological evaluation of vegetation indexes in land use and land cover (LULC) classification. - In: Geology, Ecology and Landscapes, 4(2), n.p.
+Davies, Z.G./Edmondson, J.L./Heinemeyer, A./Leake, J.R./Gaston, K.J. (2011): Mapping an urban ecosystem service: quantifyingabove-ground carbon storage at a city-wide scale. - In: Journal of Applied Ecology, 48, pp. 1125-1134. 
+El-Gammal, M.I./Ali, R.R./Abou Samra, R.M. (2014): NDVI Threshold Classification for Detecting Vegetation Cover in Damietta Governorate, Egypt. - In: Journal of American Science, 10(8), pp. 108-113. 
+Eneji, I.S./Obinna, O./Azua, E.T. (2013): Sequestration and Carbon Storage Potential of Tropical Forest Reserve and Tree Species Located within Benue State of Nigeria. - In: Journal of Geoscience and Environment Protection, 2, pp. 157-166. 
+IPCC [Intergovernmental Panel on Climate Change] (2015): Climate Change 2014. Synthesis Report. Geneva, Switzerland. 
+Hashim, H./Latif, Z.A./Adnan, N.A. (2019): Urban Vegetation Classification with NDVI Threshold Value Method with Very High Resolution (VHR) Pleiades Imagery. - In: The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 42(4), pp. 237-240. 
+Mkansi, R. (2017): Spectral reflectance of soil, vegetation and water. - URL: https://mkansireminder.wordpress.com/2017/04/24/spectral-reflectance-of-soil-vegetation-water/ [28.07.2021].
+Osterburg, B./Don, a. (2021): Nur die langfristige CO2-Bindung zählt. - In: Panorama Klimaschutz, DLG-Mitteilungen, 5, pp. 64-66. 
+Tang, Y./Chen, A./Zhao, S. (2016): Carbon Storage and Sequestration of Urban Street Trees in Beijing, China. - In: Froniers in Ecology and Evolution, 4:53, n.p. 
+Weier, J./Herring, D. (2000): Measuring Vegetation (NDVI & EVI). - URL: https://earthobservatory.nasa.gov/features/MeasuringVegetation [16.03.2022].
 
-Sequestration ability values/convert C in CO<sub>2</sub> formula:
-- https://www.researchgate.net/publication/261699371_Sequestration_and_Carbon_Storage_Potential_of_Tropical_Forest_Reserve_and_Tree_Species_Located_within_Benue_State_of_Nigeria
-- https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2011.02021.x
+Additional sequestration ability values/convert C in CO<sub>2</sub> formula:
 - https://www.unm.edu/~jbrink/365/Documents/Calculating_tree_carbon.pdf
-- https://www.frontiersin.org/articles/10.3389/fevo.2016.00053/full
 - https://www.co2-acker.de/
-
-Difficulties when balancing CO<sub>2</sub> emissions:
-- https://www.researchgate.net/publication/352705359_Nur_die_langfristige_CO2-Bindung_zahlt
-- https://www.frontiersin.org/articles/10.3389/fevo.2015.00144/full
