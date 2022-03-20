@@ -97,7 +97,7 @@ If not, feel free to choose whichever you like and install it accordingly.
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
 2. Specify the search area by zooming in with the mouse wheel and moving the map with left-click
 3. Hover over the region you want to see data from and you'll get a red value which shows the total CO<sub>2</sub> emissions in tonnes for the year 2018
-4. For convenience you can already put the value in the "Excelsheet.xlsx" which can be found inside the `project_data.zip` in the marked cell beneath "Emission value (t CO<sub>2</sub>/year)" (blue background). This will be a step at "Part 2: Calculations" (see below) as well
+4. For convenience you can already put the value in the "Spreadsheet.xlsx" which can be found inside the `project_data.zip` in the marked cell beneath "Emission value (t CO<sub>2</sub>/year)" (blue background). This will be a step at "Part 2: Calculations" (see below) as well
 
 </details>
 
@@ -134,10 +134,10 @@ If not, feel free to choose whichever you like and install it accordingly.
 <br/>
 
 1. Open the spreadsheet file you got from the model as output 
-2. Copy the values from the third column (no title)
-3. Navigate to the project folder and open "Excelsheet.xls"
-4. Paste the values in the column "HERE (m²)" (blue background)
-5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO<sub>2</sub>/year)" (blue background) if you did not already
+2. Copy the values of classes 1-4 from the third column (no title)
+3. Navigate to the project folder and open "Spreadsheet.xlsx"
+4. Paste the values in the column "HERE (m²)" (blue background) with Ctrl + Shift + v (paste text only without the format)
+5. Now put in the emission value from <a href="https://openghgmap.net/">OpenGHGmap</a> in the marked cell under "Emission value (t CO<sub>2</sub>/year)" (blue background) if you did not already (double-click on the cell and Ctrl + Shift + v (paste text only without the format)) 
 6. All following values including the result should be automatically calculated
 7. The result is displayed through a color in the corresponding cells. It states whether the vegetation suffices to compensate the CO<sub>2</sub> emissions of your roi or not
 
