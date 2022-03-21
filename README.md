@@ -52,14 +52,7 @@ If not, feel free to choose whichever you like and install it accordingly.
 ### Aquisition of the required data
 
 > First step: download the file `project_data.zip` and extract the files into a folder (choose a name). This is called the `project folder` in the following steps. The folder `data` in it is referred to as `./data`. <br/>
-> Take a look at <a href="Examples, help and additional info/Data structure.png">Data structure</a> for reference:
-
-<details>
-   <summary><b>Data structure</b></summary>
-<br/>
-  <img src="Examples, help and additional info/Data structure.png"></img>
-  
-</details>  
+> Take a look at <a href="Examples, help and additional info/Data structure.png">Data structure</a> for reference. 
 
 <details>
    <summary><b>How to aquire vector data</b></summary>
