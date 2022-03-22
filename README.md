@@ -19,7 +19,7 @@ For a specific point in time we would like to determine the vegetation areas in 
 ### How to install
 
 #### GIS (Windows):
-1. Download the OSGeo4W Installer from <a href="https://trac.osgeo.org/osgeo4w/" target="blank">here</a> (right-click on "OSGeo4W network installer" -> "Save linked content as...")
+1. Download the OSGeo4W Installer from <a href="https://trac.osgeo.org/osgeo4w/" target="_blank">here</a> (right-click on "OSGeo4W network installer" -> "Save linked content as...")
 2. Run the installer
 3. Select Advanced Install, click through the steps and keep the default values
 4. Stop at "Choose packages": select the following packages for installation. Click on "Skip" in the column "New" to select a package for installation. If a package is selected for installation, the version number will be shown in the column "New". You can search for their names in the searchbar.
