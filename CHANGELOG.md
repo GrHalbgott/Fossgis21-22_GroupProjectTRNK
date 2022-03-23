@@ -1,5 +1,14 @@
 # Changelog of the project data folder
 
+## 23.03.2022 - v1.1.3 (Hotfix)
+
+Minor changes in the model:
+- Changed the reclassification matrix back
+- Changed the range boundaries to min <= value < max to optimize the reclassification
+
+Minor changes in the Spreadsheet:
+- Changed the descriptions of the levels of vegetation to be the same as in the reclassification matrix 
+
 ## 20.03.2022 - v1.1.2 (Hotfix)
 
 Minor changes in the model:
