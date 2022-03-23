@@ -49,13 +49,13 @@ If not, feel free to choose whichever you like and install it accordingly.
 - Emission (CO<sub>2</sub>) data: OpenGHGMap (https://openghgmap.net/), it's available free, outputs one total emission value per city/region and shows the different sources of emission
 - Sequestration ability of vegetation: values from literature 
 
-### Aquisition of the required data
+### Acquisition of the required data
 
 > First step: download the file `project_data.zip` and extract the files into a folder (choose a name). This is called the `project folder` in the following steps. The folder `data` in it is referred to as `./data`. <br/>
 > Take a look at <a href="Examples, help and additional info/Data structure.png">Data structure</a> for reference. 
 
 <details>
-   <summary><b>How to aquire vector data</b></summary>
+   <summary><b>How to acquire vector data</b></summary>
 <br/>
 
 1. Navigate to <a href="https://gadm.org/download_country.html">GADM data by country</a>, select any country you want and download the Shapefile
@@ -64,7 +64,7 @@ If not, feel free to choose whichever you like and install it accordingly.
 </details>    
     
 <details>
-   <summary><b>How to aquire raster (Sentinel 2) data</b></summary>
+   <summary><b>How to acquire raster (Sentinel 2) data</b></summary>
 <br/>
     
 1. Navigate to <a href="https://scihub.copernicus.eu/dhus/#/self-registration">Copernicus Open Access Hub by ESA registration form</a> and set up an account
@@ -84,7 +84,7 @@ If not, feel free to choose whichever you like and install it accordingly.
 </details>
 
 <details>
-   <summary><b>How to aquire emission data</b></summary>
+   <summary><b>How to acquire emission data</b></summary>
 <br/>
 
 1. Navigate to <a href="https://openghgmap.net/">OpenGHGmap</a> and wait until the data is loaded (coloring the base map)
