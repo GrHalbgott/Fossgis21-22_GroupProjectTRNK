@@ -153,13 +153,17 @@ For further information on the model and the specific calculations you can look 
 - Davies, Z.G./Edmondson, J.L./Heinemeyer, A./Leake, J.R./Gaston, K.J. (2011): Mapping an urban ecosystem service: quantifyingabove-ground carbon storage at a city-wide scale. - In: Journal of Applied Ecology, 48, pp. 1125-1134.
 - El-Gammal, M.I./Ali, R.R./Abou Samra, R.M. (2014): NDVI Threshold Classification for Detecting Vegetation Cover in Damietta Governorate, Egypt. - In: Journal of American Science, 10(8), pp. 108-113.
 - Eneji, I.S./Obinna, O./Azua, E.T. (2013): Sequestration and Carbon Storage Potential of Tropical Forest Reserve and Tree Species Located within Benue State of Nigeria. - In: Journal of Geoscience and Environment Protection, 2, pp. 157-166.
+- Gross, D. (2005): Monitoring Agricultural Biomass Using NDVI Time Series. Food and Agriculture Organization of the United Nations (FAO), Rome, Italia. 
+- Jensen, J.R. (2007): Remote Sensing of the Environment. An Earth Resource Perspective. Second Edition. Pearson Education, Noida, New Delhi, India. 
+- Konecny, G. (2014): Geoinformation. Remote Sensing, Photogrammetry, and Geographic Information Systems. Second Edition. CRC Press, Boca Raton, United States of America. 
+- Hashim, H./Latif, Z.A./Adnan, N.A. (2019): Urban Vegetation Classification with NDVI Threshold Value Method with Very High Resolution (VHR) Pleiades Imagery. - In: The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 42(4), pp. 237-240.
 - IPCC [Intergovernmental Panel on Climate Change] (2015): Climate Change 2014. Synthesis Report. Geneva, Switzerland.
-- Hashim, H./Latif, Z.A./Adnan, N.A. (2019): Urban Vegetation Classification with NDVI Threshold Value Method with Very High Resolution (VHR) Pleiades Imagery. - In: The -International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 42(4), pp. 237-240.
+- Isioye, O./Akomolafe, E./Awulu, J. (2020): Geospatial analysis of Impervious Surfaces and their Effect on Land Surface Temperatur in Abuja, Nigeria. - In: International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences, 44-3/W1-2020. 
+- Lehner Maschinenbau GmbH (2021): Die Kampagne. Natürlich CO2 binden. - URL: https://www.co2-acker.de/kampagne [26.03.2022]. 
 - Mkansi, R. (2017): Spectral reflectance of soil, vegetation and water. - URL: https://mkansireminder.wordpress.com/2017/04/24/spectral-reflectance-of-soil-vegetation-water/ [28.07.2021].
+- Moran, D./Pichler, P.-P./Zheng, H./Muri, H./Klenner, J./Kramel, D./Többen, J./Weisz, H./Wiedmann, T./Wyckmans, A./Strømman, A.H./Gurney, K.R. (2022): Estimating CO2 emissions for 108 000 European cities. - In: Earth System Science Data, 14, pp. 845-864. 
 - Osterburg, B./Don, a. (2021): Nur die langfristige CO2-Bindung zählt. - In: Panorama Klimaschutz, DLG-Mitteilungen, 5, pp. 64-66.
+- Rouse, J.W./ Haas, R.H./Schell, J.A./Deering, D.W. (1973): Monitoring Vegetation Systems in the Great Plains with ERTS. - In: Third Earth Resources Technology Satellite-1 Symposium, NASA SP-351, 1, pp. 309 - 317. 
 - Tang, Y./Chen, A./Zhao, S. (2016): Carbon Storage and Sequestration of Urban Street Trees in Beijing, China. - In: Froniers in Ecology and Evolution, 4:53, n.p.
+- Velasco, E./Roth, M./Norford, L./Molina, L. (2016): Does urban vegetation enhance carbon sequestration. - In: Landscape and Urban Planning, 148, pp. 99-107. 
 - Weier, J./Herring, D. (2000): Measuring Vegetation (NDVI & EVI). - URL: https://earthobservatory.nasa.gov/features/MeasuringVegetation [16.03.2022].
-
-Additional sequestration ability values/convert C in CO<sub>2</sub> formula:
-- https://www.unm.edu/~jbrink/365/Documents/Calculating_tree_carbon.pdf
-- https://www.co2-acker.de/
