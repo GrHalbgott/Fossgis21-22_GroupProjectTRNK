@@ -142,10 +142,8 @@ If not, feel free to choose whichever you like and install it accordingly.
 
 For further information on the model and the specific calculations you can look into <a href="https://github.com/GrHalbgott/Plants-vs-CO2/wiki/Specifics">specifics</a>. If you have any questions or encounter a specific problem, feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/issues">Issues</a> section of this repository to get in touch with us. We are looking forward to your ideas and input!
 
----
-
 <details>
-   <summary>## Literature</summary>
+   <summary>Literature</summary>
 <br/>
 
 - Aryal, J./Sitaula, C./Aryal, S. (2022): NDVI Threshold-Based Urban Green Space Mapping from Sentinel-2A at the Local Governmental Area (LGA) Level of Victoria, Australia. - In: Land, 11:351, n.p.
