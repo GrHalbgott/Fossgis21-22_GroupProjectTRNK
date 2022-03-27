@@ -144,7 +144,9 @@ For further information on the model and the specific calculations you can look 
 
 ---
 
-## Literature:
+<details>
+   <summary>## Literature</summary>
+<br/>
 
 - Aryal, J./Sitaula, C./Aryal, S. (2022): NDVI Threshold-Based Urban Green Space Mapping from Sentinel-2A at the Local Governmental Area (LGA) Level of Victoria, Australia. - In: Land, 11:351, n.p.
 - Candiago, S./Remondino, F./De Giglio, M./Dubbini. M./Gattelli, M.(2015): Evaluating Multispectral Images and Vegetation Indices for Precision Farming Applications from UAV Images. - In: Remote Sensing, 7, pp. 4026 - 4047.
@@ -167,3 +169,5 @@ For further information on the model and the specific calculations you can look 
 - Tang, Y./Chen, A./Zhao, S. (2016): Carbon Storage and Sequestration of Urban Street Trees in Beijing, China. - In: Froniers in Ecology and Evolution, 4:53, n.p.
 - Velasco, E./Roth, M./Norford, L./Molina, L. (2016): Does urban vegetation enhance carbon sequestration. - In: Landscape and Urban Planning, 148, pp. 99-107. 
 - Weier, J./Herring, D. (2000): Measuring Vegetation (NDVI & EVI). - URL: https://earthobservatory.nasa.gov/features/MeasuringVegetation [16.03.2022].
+
+</details>
