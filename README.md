@@ -142,6 +142,8 @@ If not, feel free to choose whichever you like and install it accordingly.
 
 For further information on the model and the specific calculations you can look into <a href="https://github.com/GrHalbgott/Plants-vs-CO2/wiki/Specifics">specifics</a>. If you have any questions or encounter a specific problem, feel free to use the <a href="https://github.com/GrHalbgott/Fossgis22_Plants-vs-CO2/issues">Issues</a> section of this repository to get in touch with us. We are looking forward to your ideas and input!
 
+For the according paper look [here](https://github.com/GrHalbgott/university/blob/main/1_fossgis/report.pdf). 
+
 ---
 
 <details>
